@@ -1,0 +1,171 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+td {
+  text-align: right;
+}
+</style>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
+</script>
+<!-- script texts -->
+
+<script>
+    function drawChart0() {
+       var data_0 = google.visualization.arrayToDataTable([['', 'blink_gc','cc','discardable','font_caches','gpu','leveldb','malloc','malloc/metadata','partition_alloc','skia','sqlite','v8','v8/Zone','web_cache','java_heap', { role: 'annotation'}],
+['0',0,0,0,0,0,8200,4638484,0,0,0,200736,0,0,0,7425157,''],
+['1',0,0,0,0,196544,8200,6346232,0,0,0,244624,0,0,0,9412296,''],
+['2',0,230196,0,0,459768,8200,6747568,0,0,0,274856,0,0,0,9412296,''],
+['3',0,460392,0,0,1116768,8200,6944836,0,0,0,289336,0,0,0,9412296,''],
+['4',0,460392,0,0,1116768,8200,6938808,0,0,0,289336,0,0,0,9412296,''],
+['5',0,460392,0,0,1116768,8200,6967596,0,0,0,294456,0,0,0,9412296,''],
+['6',0,460392,0,0,3344992,8200,7007736,0,0,0,296448,0,0,0,9412296,''],
+['7',0,460392,0,0,3344992,8200,7027932,0,0,0,296448,0,0,0,9412296,''],
+['8',0,460392,0,0,3344992,8200,7385400,0,0,0,296448,0,0,0,9412296,''],
+['9',0,460392,0,0,3344992,8200,7220284,0,0,0,296448,0,0,0,9412296,''],
+['10',0,460392,0,0,1247840,8200,7447576,0,0,0,378856,0,0,0,9412296,''],
+['11',0,460392,0,0,1247840,8200,7337796,0,0,0,378856,0,0,0,9412296,''],
+['12',0,460392,0,0,4565600,8200,7506756,0,0,0,378856,0,0,0,9412296,''],
+['13',0,460392,0,0,4581984,8200,9669068,0,0,0,428496,0,0,0,9412296,''],
+['14',0,460392,0,0,4581984,8200,8646238,0,0,0,428496,0,0,0,9412296,''],
+['15',0,460392,0,0,4581984,12300,8519494,0,0,0,458256,0,0,0,9412296,''],
+['16',0,460392,0,0,1296992,12300,9330696,0,0,0,471504,0,0,0,9412296,''],
+['17',0,460392,0,0,1296992,12300,9094068,0,0,0,471504,0,0,0,9412296,''],
+['18',0,460392,0,0,1296992,12300,9093776,0,0,0,471504,0,0,0,9412296,''],
+['19',0,460392,0,0,1296992,12300,9094796,0,0,0,471504,0,0,0,9412296,''],
+['20',0,460392,0,0,1296992,12300,9095120,0,0,0,471504,0,0,0,9412296,''],
+['21',0,460392,0,0,1296992,12300,9094740,0,0,0,471504,0,0,0,9412296,''],
+['22',0,460392,0,0,1296992,12300,9094984,0,0,0,471504,0,0,0,9412296,''],
+['23',0,460392,0,0,1296992,12300,9350844,0,0,0,483552,0,0,0,9412296,''],
+['24',0,460392,0,0,1296992,12300,9113336,0,0,0,483552,0,0,0,9412296,''],
+['25',0,460392,0,0,1296992,12300,9112372,0,0,0,483552,0,0,0,9412296,''],
+['26',0,460392,0,0,1296992,12300,9111216,0,0,0,483552,0,0,0,9412296,''],
+['27',0,460392,0,0,1296992,12300,9111372,0,0,0,483552,0,0,0,9412296,''],
+['28',0,460392,0,0,1296992,12300,9109584,0,0,0,483552,0,0,0,9412296,''],
+['29',0,460392,0,0,1296992,12300,9108804,0,0,0,483552,0,0,0,9412296,''],
+['30',0,460392,0,0,1296992,12300,9110008,0,0,0,483552,0,0,0,9412296,''],
+['31',0,460392,0,0,1296992,12300,9347508,0,0,0,483552,0,0,0,9412296,''],
+['32',0,460392,0,0,1296992,12300,9109368,0,0,0,483552,0,0,0,9412296,''],
+['33',0,460392,0,0,1296992,12300,9109116,0,0,0,483552,0,0,0,9412296,''],
+['34',0,460392,0,0,1296992,12300,9108440,0,0,0,483552,0,0,0,9412296,''],
+['35',0,460392,0,0,1296992,12300,9107748,0,0,0,483552,0,0,0,9412296,''],
+['36',0,460392,0,0,1296992,12300,9107784,0,0,0,483552,0,0,0,9412296,''],
+['37',0,460392,0,0,1296992,12300,9106724,0,0,0,483552,0,0,0,9412296,''],
+['38',0,460392,0,0,1296992,12300,9107648,0,0,0,483552,0,0,0,9412296,''],
+['39',0,460392,0,0,1296992,12300,9345580,0,0,0,483552,0,0,0,9412296,''],
+['40',0,460392,0,0,1296992,12300,9107152,0,0,0,483552,0,0,0,9412296,''],
+['41',0,460392,0,0,1296992,12300,9106948,0,0,0,396240,0,0,0,9412296,''],
+['42',0,460392,0,0,1296992,12300,9349008,0,0,0,396240,0,0,0,9412296,''],
+['43',0,460392,0,0,1296992,12300,9107436,0,0,0,396240,0,0,0,9412296,''],
+['44',0,460392,0,0,1296992,12300,9107452,0,0,0,396240,0,0,0,9412296,'']]);
+       var options_0 = {
+          title: "Global memory dump - Browser 992 - None (load_news_washingtonpost22016-11-08_20-23-44.html)",
+          titleTextStyle: { fontSize: 14 },
+          width: "900px",
+          height: "3392px",
+          chartArea: { width: "60%", height: "97.641509%" },
+          legend: { textStyle: { fontSize: 14 }, position: 'right', maxLines: 20 },
+          var: { groupWidth: '75%' },
+          hAxis: { textStyle: { fontSize: 14 }, maxValue: 32079841, textPosition: 'out' },
+
+          vAxis: { titleTextStyle: { fontSize: 16 }, textStyle: { fontSize: 14 }, title: "event" },
+          isStacked: true
+       };
+       var chart_0 = new google.visualization.BarChart(document.getElementById("barchart_values_0"));
+      chart_0.draw(data_0, options_0);
+    }
+</script>
+
+<script>
+    function drawChart1() {
+       var data_1 = google.visualization.arrayToDataTable([['', 'blink_gc','cc','discardable','font_caches','gpu','leveldb','malloc','malloc/metadata','partition_alloc','skia','sqlite','v8','v8/Zone','web_cache','java_heap', { role: 'annotation'}],
+['0',1703936,0,0,0,0,0,3037444,0,540672,0,0,1477136,24688,0,5730325,''],
+['1',1703936,0,0,0,2228096,0,3163664,0,540672,0,0,1477136,24688,0,5730325,''],
+['2',1703936,0,0,0,2228096,0,3158900,0,540672,0,0,1477136,24688,0,5730325,''],
+['3',1703936,0,0,0,2228096,0,3788272,0,557056,0,0,1389776,259248,0,5730325,''],
+['4',1703936,0,0,0,2228096,0,3295220,0,557056,0,0,1389776,259248,0,5730325,''],
+['5',1703936,0,0,0,131008,0,3409640,0,854019,0,0,1761040,527448,34813,5730325,''],
+['6',1703936,0,0,9236,3276736,0,3848676,0,1284749,4320,0,3406416,3531760,590175,5730325,''],
+['7',2097152,180224,0,46932,3276736,0,4801312,0,1807339,14732,0,5934952,537940,1029313,5730325,''],
+['8',2883584,49152,0,46932,3276736,0,7125916,0,2234867,14732,0,6940292,537940,1449657,5730325,''],
+['9',3145728,49152,0,46932,3276736,0,6478388,0,3083169,14732,0,8504692,1066712,683275,5730325,''],
+['10',3276800,0,0,46932,131008,0,6618184,0,3065445,14732,0,8638560,1066712,717383,5730325,''],
+['11',3276800,0,0,46932,131008,0,6401220,0,3098197,14732,0,8738364,1066712,737879,5730325,''],
+['12',3407872,0,0,46932,131008,0,5748480,0,2112229,14732,0,8777636,1066712,740807,5730325,''],
+['13',3407872,0,0,46932,131008,0,5748772,0,2112229,14732,0,8777636,1066712,740807,5730325,''],
+['14',3407872,0,0,46932,131008,0,5748912,0,2112229,14732,0,8777636,1066712,740807,5730325,''],
+['15',3407872,0,0,46932,131008,0,5748956,0,2112229,14732,0,8777636,1066712,740807,5730325,''],
+['16',3407872,0,0,46932,131008,0,5748744,0,2112229,14732,0,8777636,1066712,740807,5730325,''],
+['17',3407872,0,0,46932,131008,0,5749140,0,2112229,14732,0,8777636,1066712,740807,5730325,''],
+['18',3407872,0,0,46932,131008,0,6408352,0,2112229,14732,0,8777636,1066712,740807,5730325,''],
+['19',3407872,0,0,46932,131008,0,5749124,0,2116325,14732,0,8777636,1066712,740807,5730325,''],
+['20',3407872,0,0,46932,131008,0,5753416,0,2116325,14732,0,8778208,1066712,740807,5730325,''],
+['21',3407872,0,0,46932,131008,0,5752772,0,2116325,14732,0,8778208,1066712,740807,5730325,''],
+['22',3407872,0,0,46932,131008,0,5753840,0,2116325,14732,0,8778208,1066712,740807,5730325,''],
+['23',3407872,0,0,46932,131008,0,5648052,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['24',3407872,0,0,46932,131008,0,5647992,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['25',3407872,0,0,46932,131008,0,5647900,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['26',3407872,0,0,46932,131008,0,6291888,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['27',3407872,0,0,46932,131008,0,5648204,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['28',3407872,0,0,46932,131008,0,5648328,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['29',3407872,0,0,46932,131008,0,5648420,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['30',3407872,0,0,46932,131008,0,5648592,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['31',3407872,0,0,46932,131008,0,5648396,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['32',3407872,0,0,46932,131008,0,5647128,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['33',3407872,0,0,46932,131008,0,5648548,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['34',3407872,0,0,46932,131008,0,6292248,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['35',3407872,0,0,46932,131008,0,5648692,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['36',3407872,0,0,46932,131008,0,5648840,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['37',3407872,0,0,46932,131008,0,6292452,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['38',3407872,0,0,46932,131008,0,5648568,0,1942770,14732,0,5210884,1066712,668602,5730325,''],
+['39',3407872,0,0,46932,131008,0,5649020,0,1942770,14732,0,5210884,1066712,668602,5730325,'']]);
+       var options_1 = {
+          title: "Global memory dump - Renderer 1026 - The Washington Post (load_news_washingtonpost22016-11-08_20-23-44.html)",
+          titleTextStyle: { fontSize: 14 },
+          width: "900px",
+          height: "3032px",
+          chartArea: { width: "60%", height: "97.361478%" },
+          legend: { textStyle: { fontSize: 14 }, position: 'right', maxLines: 20 },
+          var: { groupWidth: '75%' },
+          hAxis: { textStyle: { fontSize: 14 }, maxValue: 32079841, textPosition: 'out' },
+
+          vAxis: { titleTextStyle: { fontSize: 16 }, textStyle: { fontSize: 14 }, title: "event" },
+          isStacked: true
+       };
+       var chart_1 = new google.visualization.BarChart(document.getElementById("barchart_values_1"));
+      chart_1.draw(data_1, options_1);
+    }
+</script>
+
+<script type="text/javascript">
+
+function drawChain1() {
+   drawChart1();
+}
+
+function drawChain0() {
+   drawChart0();
+   window.setTimeout(drawChain1, 1);
+}
+
+</script>
+<script type="text/javascript">
+function drawChart() {
+drawChain0();
+
+}
+</script>
+<script type="text/javascript">
+google.charts.load("current", {packages:["corechart"]});
+google.charts.setOnLoadCallback(drawChart);
+</script>
+</head>
+<body>
+<!-- (dump, element) -->
+<table border=1><tr><th>event</th><th>resident_set_bytes</th><th>blink_gc</th><th>cc</th><th>discardable</th><th>font_caches</th><th>gpu</th><th>leveldb</th><th>malloc</th><th>malloc/metadata</th><th>partition_alloc</th><th>skia</th><th>sqlite</th><th>v8</th><th>v8/Zone</th><th>web_cache</th><th>java_heap</th><th>tracing</th></tr><tr><th>0</th><td>71.32 MiB</td><td></td><td></td><td></td><td></td><td></td><td>8.01 KiB</td><td>4.42 MiB</td><td>0 B</td><td></td><td>0 B</td><td>196.03 KiB</td><td></td><td>0 B</td><td></td><td>7.08 MiB</td><td>30.53 MiB</td></tr><tr><th>1</th><td>81.36 MiB</td><td></td><td></td><td></td><td></td><td>191.94 KiB</td><td>8.01 KiB</td><td>6.05 MiB</td><td>0 B</td><td></td><td>0 B</td><td>238.89 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>31.04 MiB</td></tr><tr><th>2</th><td>86.81 MiB</td><td></td><td>224.80 KiB</td><td></td><td></td><td>448.99 KiB</td><td>8.01 KiB</td><td>6.43 MiB</td><td>0 B</td><td></td><td>0 B</td><td>268.41 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>31.06 MiB</td></tr><tr><th>3</th><td>88.62 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.07 MiB</td><td>8.01 KiB</td><td>6.62 MiB</td><td>0 B</td><td></td><td>0 B</td><td>282.55 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>31.08 MiB</td></tr><tr><th>4</th><td>88.62 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.07 MiB</td><td>8.01 KiB</td><td>6.62 MiB</td><td>0 B</td><td></td><td>0 B</td><td>282.55 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>31.13 MiB</td></tr><tr><th>5</th><td>89.11 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.07 MiB</td><td>8.01 KiB</td><td>6.64 MiB</td><td>0 B</td><td></td><td>0 B</td><td>287.55 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>31.16 MiB</td></tr><tr><th>6</th><td>90.62 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>3.19 MiB</td><td>8.01 KiB</td><td>6.68 MiB</td><td>0 B</td><td></td><td>0 B</td><td>289.50 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>31.19 MiB</td></tr><tr><th>7</th><td>90.62 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>3.19 MiB</td><td>8.01 KiB</td><td>6.70 MiB</td><td>0 B</td><td></td><td>0 B</td><td>289.50 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>31.23 MiB</td></tr><tr><th>8</th><td>90.86 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>3.19 MiB</td><td>8.01 KiB</td><td>7.04 MiB</td><td>0 B</td><td></td><td>0 B</td><td>289.50 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>31.27 MiB</td></tr><tr><th>9</th><td>91.73 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>3.19 MiB</td><td>8.01 KiB</td><td>6.89 MiB</td><td>0 B</td><td></td><td>0 B</td><td>289.50 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>31.77 MiB</td></tr><tr><th>10</th><td>91.64 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.19 MiB</td><td>8.01 KiB</td><td>7.10 MiB</td><td>0 B</td><td></td><td>0 B</td><td>369.98 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>31.81 MiB</td></tr><tr><th>11</th><td>92.06 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.19 MiB</td><td>8.01 KiB</td><td>7.00 MiB</td><td>0 B</td><td></td><td>0 B</td><td>369.98 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>31.85 MiB</td></tr><tr><th>12</th><td>92.52 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>4.35 MiB</td><td>8.01 KiB</td><td>7.16 MiB</td><td>0 B</td><td></td><td>0 B</td><td>369.98 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>31.88 MiB</td></tr><tr><th>13</th><td>93.81 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>4.37 MiB</td><td>8.01 KiB</td><td>9.22 MiB</td><td>0 B</td><td></td><td>0 B</td><td>418.45 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>31.92 MiB</td></tr><tr><th>14</th><td>96.67 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>4.37 MiB</td><td>8.01 KiB</td><td>8.25 MiB</td><td>0 B</td><td></td><td>0 B</td><td>418.45 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>32.43 MiB</td></tr><tr><th>15</th><td>96.93 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>4.37 MiB</td><td>12.01 KiB</td><td>8.12 MiB</td><td>0 B</td><td></td><td>0 B</td><td>447.52 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>32.47 MiB</td></tr><tr><th>16</th><td>97.02 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.90 MiB</td><td>0 B</td><td></td><td>0 B</td><td>460.45 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>32.51 MiB</td></tr><tr><th>17</th><td>97.76 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.67 MiB</td><td>0 B</td><td></td><td>0 B</td><td>460.45 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>33.01 MiB</td></tr><tr><th>18</th><td>97.76 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.67 MiB</td><td>0 B</td><td></td><td>0 B</td><td>460.45 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>33.06 MiB</td></tr><tr><th>19</th><td>97.76 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.67 MiB</td><td>0 B</td><td></td><td>0 B</td><td>460.45 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>33.09 MiB</td></tr><tr><th>20</th><td>97.76 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.67 MiB</td><td>0 B</td><td></td><td>0 B</td><td>460.45 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>33.12 MiB</td></tr><tr><th>21</th><td>97.76 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.67 MiB</td><td>0 B</td><td></td><td>0 B</td><td>460.45 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>33.17 MiB</td></tr><tr><th>22</th><td>97.76 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.67 MiB</td><td>0 B</td><td></td><td>0 B</td><td>460.45 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>33.21 MiB</td></tr><tr><th>23</th><td>97.76 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.92 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>33.25 MiB</td></tr><tr><th>24</th><td>98.14 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>33.75 MiB</td></tr><tr><th>25</th><td>98.14 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>33.79 MiB</td></tr><tr><th>26</th><td>98.14 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>33.83 MiB</td></tr><tr><th>27</th><td>98.14 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>33.86 MiB</td></tr><tr><th>28</th><td>98.14 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>33.90 MiB</td></tr><tr><th>29</th><td>98.14 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>33.95 MiB</td></tr><tr><th>30</th><td>98.14 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>33.98 MiB</td></tr><tr><th>31</th><td>98.14 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.91 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>34.01 MiB</td></tr><tr><th>32</th><td>98.54 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>34.52 MiB</td></tr><tr><th>33</th><td>98.75 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>34.56 MiB</td></tr><tr><th>34</th><td>98.75 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>34.60 MiB</td></tr><tr><th>35</th><td>98.75 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>34.64 MiB</td></tr><tr><th>36</th><td>98.75 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>34.67 MiB</td></tr><tr><th>37</th><td>98.75 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.68 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>34.72 MiB</td></tr><tr><th>38</th><td>98.75 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>34.75 MiB</td></tr><tr><th>39</th><td>98.75 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.91 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>34.78 MiB</td></tr><tr><th>40</th><td>99.04 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>472.22 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>35.30 MiB</td></tr><tr><th>41</th><td>99.04 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>386.95 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>35.33 MiB</td></tr><tr><th>42</th><td>99.04 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.92 MiB</td><td>0 B</td><td></td><td>0 B</td><td>386.95 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>35.38 MiB</td></tr><tr><th>43</th><td>99.61 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>386.95 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>35.88 MiB</td></tr><tr><th>44</th><td>99.61 MiB</td><td></td><td>449.60 KiB</td><td></td><td></td><td>1.24 MiB</td><td>12.01 KiB</td><td>8.69 MiB</td><td>0 B</td><td></td><td>0 B</td><td>386.95 KiB</td><td></td><td>0 B</td><td></td><td>8.98 MiB</td><td>35.92 MiB</td></tr></table><br>
+<div id="barchart_values_0" style="width: 900px; height: 3392px;"></div>
+<table border=1><tr><th>event</th><th>resident_set_bytes</th><th>blink_gc</th><th>cc</th><th>discardable</th><th>font_caches</th><th>gpu</th><th>leveldb</th><th>malloc</th><th>malloc/metadata</th><th>partition_alloc</th><th>skia</th><th>sqlite</th><th>v8</th><th>v8/Zone</th><th>web_cache</th><th>java_heap</th><th>tracing</th></tr><tr><th>0</th><td>56.18 MiB</td><td>1.62 MiB</td><td></td><td></td><td></td><td></td><td></td><td>2.90 MiB</td><td>0 B</td><td>528.00 KiB</td><td>0 B</td><td></td><td>1.41 MiB</td><td>24.11 KiB</td><td></td><td>5.46 MiB</td><td>30.53 MiB</td></tr><tr><th>1</th><td>57.29 MiB</td><td>1.62 MiB</td><td></td><td></td><td></td><td>2.12 MiB</td><td></td><td>3.02 MiB</td><td>0 B</td><td>528.00 KiB</td><td>0 B</td><td></td><td>1.41 MiB</td><td>24.11 KiB</td><td></td><td>5.46 MiB</td><td>30.56 MiB</td></tr><tr><th>2</th><td>57.34 MiB</td><td>1.62 MiB</td><td></td><td></td><td></td><td>2.12 MiB</td><td></td><td>3.01 MiB</td><td>0 B</td><td>528.00 KiB</td><td>0 B</td><td></td><td>1.41 MiB</td><td>24.11 KiB</td><td></td><td>5.46 MiB</td><td>30.58 MiB</td></tr><tr><th>3</th><td>58.91 MiB</td><td>1.62 MiB</td><td></td><td></td><td></td><td>2.12 MiB</td><td></td><td>3.61 MiB</td><td>0 B</td><td>544.00 KiB</td><td>0 B</td><td></td><td>1.33 MiB</td><td>253.17 KiB</td><td></td><td>5.46 MiB</td><td>30.61 MiB</td></tr><tr><th>4</th><td>59.88 MiB</td><td>1.62 MiB</td><td></td><td></td><td></td><td>2.12 MiB</td><td></td><td>3.14 MiB</td><td>0 B</td><td>544.00 KiB</td><td>0 B</td><td></td><td>1.33 MiB</td><td>253.17 KiB</td><td></td><td>5.46 MiB</td><td>31.61 MiB</td></tr><tr><th>5</th><td>61.91 MiB</td><td>1.62 MiB</td><td></td><td></td><td></td><td>127.94 KiB</td><td></td><td>3.25 MiB</td><td>0 B</td><td>834.00 KiB</td><td>0 B</td><td></td><td>1.68 MiB</td><td>515.09 KiB</td><td>34.00 KiB</td><td>5.46 MiB</td><td>31.64 MiB</td></tr><tr><th>6</th><td>69.53 MiB</td><td>1.62 MiB</td><td></td><td></td><td>9.02 KiB</td><td>3.12 MiB</td><td></td><td>3.67 MiB</td><td>0 B</td><td>1.23 MiB</td><td>4.22 KiB</td><td></td><td>3.25 MiB</td><td>3.37 MiB</td><td>576.34 KiB</td><td>5.46 MiB</td><td>31.68 MiB</td></tr><tr><th>7</th><td>73.24 MiB</td><td>2.00 MiB</td><td>176.00 KiB</td><td></td><td>45.83 KiB</td><td>3.12 MiB</td><td></td><td>4.58 MiB</td><td>0 B</td><td>1.72 MiB</td><td>14.39 KiB</td><td></td><td>5.66 MiB</td><td>525.33 KiB</td><td>1005.19 KiB</td><td>5.46 MiB</td><td>31.71 MiB</td></tr><tr><th>8</th><td>79.21 MiB</td><td>2.75 MiB</td><td>48.00 KiB</td><td></td><td>45.83 KiB</td><td>3.12 MiB</td><td></td><td>6.80 MiB</td><td>0 B</td><td>2.13 MiB</td><td>14.39 KiB</td><td></td><td>6.62 MiB</td><td>525.33 KiB</td><td>1.38 MiB</td><td>5.46 MiB</td><td>31.84 MiB</td></tr><tr><th>9</th><td>81.04 MiB</td><td>3.00 MiB</td><td>48.00 KiB</td><td></td><td>45.83 KiB</td><td>3.12 MiB</td><td></td><td>6.18 MiB</td><td>0 B</td><td>2.94 MiB</td><td>14.39 KiB</td><td></td><td>8.11 MiB</td><td>1.02 MiB</td><td>667.26 KiB</td><td>5.46 MiB</td><td>32.84 MiB</td></tr><tr><th>10</th><td>81.60 MiB</td><td>3.12 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>6.31 MiB</td><td>0 B</td><td>2.92 MiB</td><td>14.39 KiB</td><td></td><td>8.24 MiB</td><td>1.02 MiB</td><td>700.57 KiB</td><td>5.46 MiB</td><td>32.92 MiB</td></tr><tr><th>11</th><td>80.93 MiB</td><td>3.12 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>6.10 MiB</td><td>0 B</td><td>2.95 MiB</td><td>14.39 KiB</td><td></td><td>8.33 MiB</td><td>1.02 MiB</td><td>720.58 KiB</td><td>5.46 MiB</td><td>33.05 MiB</td></tr><tr><th>12</th><td>81.43 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.48 MiB</td><td>0 B</td><td>2.01 MiB</td><td>14.39 KiB</td><td></td><td>8.37 MiB</td><td>1.02 MiB</td><td>723.44 KiB</td><td>5.46 MiB</td><td>34.06 MiB</td></tr><tr><th>13</th><td>81.43 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.48 MiB</td><td>0 B</td><td>2.01 MiB</td><td>14.39 KiB</td><td></td><td>8.37 MiB</td><td>1.02 MiB</td><td>723.44 KiB</td><td>5.46 MiB</td><td>34.19 MiB</td></tr><tr><th>14</th><td>81.43 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.48 MiB</td><td>0 B</td><td>2.01 MiB</td><td>14.39 KiB</td><td></td><td>8.37 MiB</td><td>1.02 MiB</td><td>723.44 KiB</td><td>5.46 MiB</td><td>34.31 MiB</td></tr><tr><th>15</th><td>81.43 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.48 MiB</td><td>0 B</td><td>2.01 MiB</td><td>14.39 KiB</td><td></td><td>8.37 MiB</td><td>1.02 MiB</td><td>723.44 KiB</td><td>5.46 MiB</td><td>34.44 MiB</td></tr><tr><th>16</th><td>81.43 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.48 MiB</td><td>0 B</td><td>2.01 MiB</td><td>14.39 KiB</td><td></td><td>8.37 MiB</td><td>1.02 MiB</td><td>723.44 KiB</td><td>5.46 MiB</td><td>34.57 MiB</td></tr><tr><th>17</th><td>81.43 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.48 MiB</td><td>0 B</td><td>2.01 MiB</td><td>14.39 KiB</td><td></td><td>8.37 MiB</td><td>1.02 MiB</td><td>723.44 KiB</td><td>5.46 MiB</td><td>34.69 MiB</td></tr><tr><th>18</th><td>81.69 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>6.11 MiB</td><td>0 B</td><td>2.01 MiB</td><td>14.39 KiB</td><td></td><td>8.37 MiB</td><td>1.02 MiB</td><td>723.44 KiB</td><td>5.46 MiB</td><td>34.82 MiB</td></tr><tr><th>19</th><td>82.59 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.48 MiB</td><td>0 B</td><td>2.02 MiB</td><td>14.39 KiB</td><td></td><td>8.37 MiB</td><td>1.02 MiB</td><td>723.44 KiB</td><td>5.46 MiB</td><td>35.83 MiB</td></tr><tr><th>20</th><td>82.59 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.49 MiB</td><td>0 B</td><td>2.02 MiB</td><td>14.39 KiB</td><td></td><td>8.37 MiB</td><td>1.02 MiB</td><td>723.44 KiB</td><td>5.46 MiB</td><td>35.95 MiB</td></tr><tr><th>21</th><td>82.59 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.49 MiB</td><td>0 B</td><td>2.02 MiB</td><td>14.39 KiB</td><td></td><td>8.37 MiB</td><td>1.02 MiB</td><td>723.44 KiB</td><td>5.46 MiB</td><td>36.09 MiB</td></tr><tr><th>22</th><td>82.59 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.49 MiB</td><td>0 B</td><td>2.02 MiB</td><td>14.39 KiB</td><td></td><td>8.37 MiB</td><td>1.02 MiB</td><td>723.44 KiB</td><td>5.46 MiB</td><td>36.22 MiB</td></tr><tr><th>23</th><td>79.14 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.39 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>36.34 MiB</td></tr><tr><th>24</th><td>79.14 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.39 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>36.41 MiB</td></tr><tr><th>25</th><td>79.14 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.39 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>36.48 MiB</td></tr><tr><th>26</th><td>79.14 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>6.00 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>36.54 MiB</td></tr><tr><th>27</th><td>79.97 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.39 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>37.54 MiB</td></tr><tr><th>28</th><td>79.97 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.39 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>37.61 MiB</td></tr><tr><th>29</th><td>79.99 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.39 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>37.67 MiB</td></tr><tr><th>30</th><td>79.99 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.39 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>37.73 MiB</td></tr><tr><th>31</th><td>79.99 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.39 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>37.79 MiB</td></tr><tr><th>32</th><td>79.99 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.39 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>37.89 MiB</td></tr><tr><th>33</th><td>80.25 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.39 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>37.95 MiB</td></tr><tr><th>34</th><td>80.25 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>6.00 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>38.01 MiB</td></tr><tr><th>35</th><td>81.10 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.39 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>39.01 MiB</td></tr><tr><th>36</th><td>81.10 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.39 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>39.07 MiB</td></tr><tr><th>37</th><td>81.12 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>6.00 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>39.14 MiB</td></tr><tr><th>38</th><td>81.93 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.39 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>40.14 MiB</td></tr><tr><th>39</th><td>81.93 MiB</td><td>3.25 MiB</td><td></td><td></td><td>45.83 KiB</td><td>127.94 KiB</td><td></td><td>5.39 MiB</td><td>0 B</td><td>1.85 MiB</td><td>14.39 KiB</td><td></td><td>4.97 MiB</td><td>1.02 MiB</td><td>652.93 KiB</td><td>5.46 MiB</td><td>40.21 MiB</td></tr></table><br>
+<div id="barchart_values_1" style="width: 900px; height: 3032px;"></div>
+
+</body>
+
