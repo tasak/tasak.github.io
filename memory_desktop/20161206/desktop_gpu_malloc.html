@@ -44,17 +44,17 @@
   function drawChart1() {
       var data1 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
-['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',17407088,17407176,17407264],
-['[Thread: SGI_video_sync]',2639818,2639050,2638762],
+['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',17407176,17407176,17407528],
+['[Thread: SGI_video_sync]',2639094,2638966,2638966],
 ['gl::GLContextGLX::Initialize(gl::GLSurface*, gl::GLContextAttribs const&)',1312123,1312123,1312123],
-['TPoolAllocator::allocate(unsigned long)',589824,589824,589824],
 ['gl::GLContext::MakeVirtuallyCurrent(gl::GLContext*, gl::GLSurface*)',256579,256579,256579],
-['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',170056,170056,170056],
+['TPoolAllocator::allocate(unsigned long)',229376,229376,229376],
+['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',167124,170056,170056],
+['sh::TFunction::getMangledName() const',139264,139264,139264],
+['MallocExtension::instance()',121963,119031,120103],
 ['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',96360,96360,96360],
-['gpu::gles2::TextureManager::Initialize()',89932,92612,89828],
-['</usr/local/google/home/tasak/Work/chromium/local/workspace1/src/out/Release/libgpu.so>',86832,86832,86832],
-['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',71492,76818,76810],
-['std::vector<gpu::gles2::TextureUnit, std::allocator<gpu::gles2::TextureUnit> >::_M_default_append(unsigned long)',75264,75264,75264],
+['gpu::gles2::TextureManager::Initialize()',92612,89932,92612],
+['void std::vector<sh::TConstParameter, pool_allocator<sh::TConstParameter> >::_M_insert_aux<sh::TConstParameter const&>(__gnu_cxx::__normal_iterator<sh::TConstParameter*, std::vector<sh::TConstParameter, pool_allocator<sh::TConstParameter> > >, sh::TConstParameter const&)',90112,90112,90112],
       ]);
 
      var options = {
@@ -77,18 +77,18 @@
 
   function drawChart2() {
       var data2 = google.visualization.arrayToDataTable([
-          ['type','1','2','3'],
-['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',13624461,13624197,13624637],
-['[Thread: SGI_video_sync]',2639050,2639050,2639050],
-['gl::GLContextGLX::Initialize(gl::GLSurface*, gl::GLContextAttribs const&)',1312123,1312123,1312123],
-['TPoolAllocator::allocate(unsigned long)',614400,614400,614400],
-['gl::GLContext::MakeVirtuallyCurrent(gl::GLContext*, gl::GLSurface*)',256579,256579,256579],
-['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',158328,158328,158328],
-['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',124119,124119,124119],
-['base::trace_event::AllocationRegister::Insert(void const*, unsigned long, base::trace_event::AllocationContext const&)',113905,117177,114609],
-['MallocExtension::instance()',110295,110063,108975],
-['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',84480,84480,84480],
-['</usr/local/google/home/tasak/Work/chromium/local/workspace1/src/out/Release/libgpu.so>',57888,57888,57888],
+          ['type','1','2','3','4'],
+['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',13624285,13624637,14672777,13624197],
+['[Thread: SGI_video_sync]',2639254,2638678,2639766,2639254],
+['gl::GLContextGLX::Initialize(gl::GLSurface*, gl::GLContextAttribs const&)',1312123,1312123,1312123,1312123],
+['TPoolAllocator::allocate(unsigned long)',614400,614400,614400,614400],
+['gl::GLContext::MakeVirtuallyCurrent(gl::GLContext*, gl::GLSurface*)',256579,256579,256579,256579],
+['MallocExtension::instance()',211968,218684,213336,212016],
+['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',158328,152464,170056,155396],
+['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',124119,120403,124119,124119],
+['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',84480,84480,89760,84480],
+['</usr/local/google/home/tasak/Work/chromium/local/workspace1/src/out/Release/libgpu.so>',57888,57888,57888,57888],
+['</run/shm/.org.chromium.Chromium.1l3Mxh (deleted)>',0,0,55152,0],
       ]);
 
      var options = {
@@ -146,17 +146,17 @@
   function drawChart4() {
       var data4 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
-['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',24659625,24659625,24659185],
-['[Thread: SGI_video_sync]',2638762,2639050,2639050],
+['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',24659625,24659625,24658745],
+['[Thread: SGI_video_sync]',2638678,2638678,2638678],
 ['gl::GLContextGLX::Initialize(gl::GLSurface*, gl::GLContextAttribs const&)',1312123,1312123,1312123],
-['TPoolAllocator::allocate(unsigned long)',614400,614400,614400],
 ['gl::GLContext::MakeVirtuallyCurrent(gl::GLContext*, gl::GLSurface*)',256579,256579,256579],
-['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',252152,249220,249220],
+['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',249220,249220,249220],
+['TPoolAllocator::allocate(unsigned long)',229376,237568,237568],
+['MallocExtension::instance()',169555,169123,169555],
+['sh::TFunction::getMangledName() const',139264,147456,147456],
 ['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',134640,134640,134640],
-['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',94008,99150,94008],
-['MallocExtension::instance()',93195,94071,95231],
-['base::trace_event::AllocationRegister::Insert(void const*, unsigned long, base::trace_event::AllocationContext const&)',91036,91036,92108],
-['gpu::gles2::TextureManager::Initialize()',89828,89932,89828],
+['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',94008,94008,99326],
+['void std::vector<sh::TConstParameter, pool_allocator<sh::TConstParameter> >::_M_insert_aux<sh::TConstParameter const&>(__gnu_cxx::__normal_iterator<sh::TConstParameter*, std::vector<sh::TConstParameter, pool_allocator<sh::TConstParameter> > >, sh::TConstParameter const&)',90112,90112,90112],
       ]);
 
      var options = {
@@ -214,17 +214,17 @@
   function drawChart6() {
       var data6 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
-['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',20496160,21938478,23249489],
-['[Thread: SGI_video_sync]',2639050,2639050,2639338],
+['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',23118302,20496160,20495280],
+['[Thread: SGI_video_sync]',2638806,2638966,2638678],
 ['gl::GLContextGLX::Initialize(gl::GLSurface*, gl::GLContextAttribs const&)',1312123,1312123,1312123],
-['TPoolAllocator::allocate(unsigned long)',589824,589824,589824],
 ['gl::GLContext::MakeVirtuallyCurrent(gl::GLContext*, gl::GLSurface*)',256579,256579,256579],
-['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',193512,225764,240424],
-['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',106920,120120,126720],
-['gpu::gles2::TextureManager::Initialize()',89932,89828,92612],
-['</usr/local/google/home/tasak/Work/chromium/local/workspace1/src/out/Release/libgpu.so>',86832,86832,86832],
-['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',76634,76634,76634],
-['std::vector<gpu::gles2::TextureUnit, std::allocator<gpu::gles2::TextureUnit> >::_M_default_append(unsigned long)',75264,75264,75264],
+['TPoolAllocator::allocate(unsigned long)',221184,229376,229376],
+['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',222832,193512,190580],
+['sh::TFunction::getMangledName() const',139264,139264,139264],
+['MallocExtension::instance()',120838,123875,125759],
+['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',120120,108240,108240],
+['void std::vector<sh::TConstParameter, pool_allocator<sh::TConstParameter> >::_M_insert_aux<sh::TConstParameter const&>(__gnu_cxx::__normal_iterator<sh::TConstParameter*, std::vector<sh::TConstParameter, pool_allocator<sh::TConstParameter> > >, sh::TConstParameter const&)',90112,90112,90112],
+['gpu::gles2::TextureManager::Initialize()',89828,89828,89828],
       ]);
 
      var options = {
@@ -281,18 +281,18 @@
 
   function drawChart8() {
       var data8 = google.visualization.arrayToDataTable([
-          ['type','1','2','3','4','5','6'],
-['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',21812468,23648253,24696745,21812468,21812468,23648077],
-['[Thread: SGI_video_sync]',2639050,2639050,2639562,2639050,2639690,2639050],
-['gl::GLContextGLX::Initialize(gl::GLSurface*, gl::GLContextAttribs const&)',1312123,1312123,1312123,1312123,1312123,1312123],
-['TPoolAllocator::allocate(unsigned long)',614400,614400,614400,614400,614400,614400],
-['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',255084,275608,281472,252152,255084,272676],
-['gl::GLContext::MakeVirtuallyCurrent(gl::GLContext*, gl::GLSurface*)',256579,256579,256579,256579,256579,256579],
-['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',134640,142560,147840,133320,134640,142560],
-['MallocExtension::instance()',89615,89067,108845,90999,90975,91743],
-['base::trace_event::AllocationRegister::Insert(void const*, unsigned long, base::trace_event::AllocationContext const&)',95293,94925,80923,98725,91949,91537],
-['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',95189,95189,95189,96847,95189,95189],
-['gpu::gles2::TextureManager::Initialize()',89932,89932,89932,89828,89828,92612],
+          ['type','1','2','3','4'],
+['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',23648253,21943322,10992495,10993111],
+['[Thread: SGI_video_sync]',2638966,2639254,2638806,2639478],
+['gl::GLContextGLX::Initialize(gl::GLSurface*, gl::GLContextAttribs const&)',1312123,1312123,1312123,1312123],
+['TPoolAllocator::allocate(unsigned long)',614400,614400,614400,614400],
+['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',269744,258016,93824,93824],
+['gl::GLContext::MakeVirtuallyCurrent(gl::GLContext*, gl::GLSurface*)',256579,256579,256579,256579],
+['MallocExtension::instance()',167624,166568,164116,163684],
+['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',142560,134640,59400,59400],
+['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',100331,95189,100331,95189],
+['gpu::gles2::TextureManager::Initialize()',89828,89932,92612,89828],
+['</usr/local/google/home/tasak/Work/chromium/local/workspace1/src/out/Release/libgpu.so>',86832,86832,86832,86832],
       ]);
 
      var options = {
@@ -758,17 +758,17 @@
   function drawChart22() {
       var data22 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
-['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',15221148,15221412,15221324],
-['[Thread: SGI_video_sync]',2639178,2638890,2639306],
+['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',15221324,15220620,15221324],
+['[Thread: SGI_video_sync]',2639222,2639222,2638934],
 ['gl::GLContextGLX::Initialize(gl::GLSurface*, gl::GLContextAttribs const&)',1312123,1312123,1312123],
 ['TPoolAllocator::allocate(unsigned long)',614400,614400,614400],
 ['gl::GLContext::MakeVirtuallyCurrent(gl::GLContext*, gl::GLSurface*)',256579,256579,256579],
-['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',193512,193512,193512],
+['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',193512,190580,190580],
+['MallocExtension::instance()',148794,146202,143486],
 ['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',101640,101640,101640],
-['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',83265,88407,88407],
-['MallocExtension::instance()',78860,78860,79052],
-['base::trace_event::AllocationRegister::Insert(void const*, unsigned long, base::trace_event::AllocationContext const&)',76758,74614,77262],
+['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',84691,88407,88407],
 ['</usr/local/google/home/tasak/Work/chromium/local/workspace1/src/out/Release/libgpu.so>',57888,57888,57888],
+['gpu::gles2::TextureManager::CreateTexture(unsigned int, unsigned int)',53584,55760,54128],
       ]);
 
      var options = {
@@ -859,18 +859,18 @@
 
   function drawChart25() {
       var data25 = google.visualization.arrayToDataTable([
-          ['type','1','2','3'],
-['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',20030705,19915730,20030089],
-['[Thread: SGI_video_sync]',2639594,2639306,2639018],
-['gl::GLContextGLX::Initialize(gl::GLSurface*, gl::GLContextAttribs const&)',1312123,1312123,1312123],
-['TPoolAllocator::allocate(unsigned long)',589824,589824,589824],
-['gl::GLContext::MakeVirtuallyCurrent(gl::GLContext*, gl::GLSurface*)',256579,256579,256579],
-['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',190580,187648,190580],
-['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',105600,104280,105600],
-['MallocExtension::instance()',79952,79952,81248],
-['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',76634,71492,76634],
-['base::trace_event::AllocationRegister::Insert(void const*, unsigned long, base::trace_event::AllocationContext const&)',62607,63263,62607],
-['</usr/local/google/home/tasak/Work/chromium/local/workspace1/src/out/Release/libgpu.so>',57888,57888,57888],
+          ['type','1','2','3','4'],
+['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',20030529,20030265,19915642,20030705],
+['[Thread: SGI_video_sync]',2638934,2639222,2639222,2638934],
+['gl::GLContextGLX::Initialize(gl::GLSurface*, gl::GLContextAttribs const&)',1312123,1312123,1312123,1312123],
+['TPoolAllocator::allocate(unsigned long)',589824,589824,589824,589824],
+['gl::GLContext::MakeVirtuallyCurrent(gl::GLContext*, gl::GLSurface*)',256579,256579,256579,256579],
+['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',190580,187648,184716,181784],
+['MallocExtension::instance()',132919,136615,133419,141183],
+['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',105600,105600,104280,105600],
+['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',76634,76634,76634,76634],
+['gpu::gles2::TextureManager::CreateTexture(unsigned int, unsigned int)',52496,58752,58480,56304],
+['</usr/local/google/home/tasak/Work/chromium/local/workspace1/src/out/Release/libgpu.so>',57888,57888,57888,57888],
       ]);
 
      var options = {
@@ -1471,18 +1471,18 @@
 
   function drawChart43() {
       var data43 = google.visualization.arrayToDataTable([
-          ['type','1','2','3'],
-['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',12265493,12264725,12265253],
-['gl::GLApiBase::glTexImage2DFn(unsigned int, int, int, int, int, int, unsigned int, unsigned int, void const*)',3686423,3686423,3686423],
-['[Thread: SGI_video_sync]',2639178,2638890,2639594],
-['gl::GLContextGLX::Initialize(gl::GLSurface*, gl::GLContextAttribs const&)',1312123,1312123,1312123],
-['TPoolAllocator::allocate(unsigned long)',614400,614400,614400],
-['gl::GLContext::MakeVirtuallyCurrent(gl::GLContext*, gl::GLSurface*)',256579,256579,256579],
-['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',170056,164192,170056],
-['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',94777,94777,99919],
-['base::trace_event::AllocationRegister::Insert(void const*, unsigned long, base::trace_event::AllocationContext const&)',92284,94320,92200],
-['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',93720,93720,93720],
-['MallocExtension::instance()',87512,93360,90136],
+          ['type','1','2','3','4'],
+['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',12264373,12264901,12264901,13314249],
+['gl::GLApiBase::glTexImage2DFn(unsigned int, int, int, int, int, int, unsigned int, unsigned int, void const*)',3689519,3689519,3689519,3689519],
+['[Thread: SGI_video_sync]',2638966,2639382,2638966,2639190],
+['gl::GLContextGLX::Initialize(gl::GLSurface*, gl::GLContextAttribs const&)',1312123,1312123,1312123,1312123],
+['TPoolAllocator::allocate(unsigned long)',614400,614400,614400,614400],
+['gl::GLContext::MakeVirtuallyCurrent(gl::GLContext*, gl::GLSurface*)',256579,256579,256579,256579],
+['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',167124,167124,164192,181784],
+['MallocExtension::instance()',169608,171276,173312,167048],
+['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',94777,94777,100103,99919],
+['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',93720,93720,93720,99000],
+['</usr/local/google/home/tasak/Work/chromium/local/workspace1/src/out/Release/libgpu.so>',72360,72360,72360,72360],
       ]);
 
      var options = {
@@ -1642,17 +1642,17 @@
   function drawChart48() {
       var data48 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
-['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',20208672,20340207,20142937],
-['[Thread: SGI_video_sync]',2638762,2639690,2639402],
+['gpu::gles2::GLES2DecoderImpl::DoTexStorage2DEXT(unsigned int, int, unsigned int, int, int)',20012106,20143377,20340031],
+['[Thread: SGI_video_sync]',2638806,2638806,2639222],
 ['gl::GLContextGLX::Initialize(gl::GLSurface*, gl::GLContextAttribs const&)',1312123,1312123,1312123],
-['TPoolAllocator::allocate(unsigned long)',614400,614400,614400],
-['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',263880,269744,263880],
+['gpu::gles2::GLES2DecoderImpl::HandleBindTexture(unsigned int, void const volatile*)',260948,260948,269744],
 ['gl::GLContext::MakeVirtuallyCurrent(gl::GLContext*, gl::GLSurface*)',256579,256579,256579],
-['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',154440,157080,153120],
-['MallocExtension::instance()',135496,135560,131492],
-['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',94777,94777,94777],
-['base::trace_event::AllocationRegister::Insert(void const*, unsigned long, base::trace_event::AllocationContext const&)',89144,89224,87900],
-['</usr/local/google/home/tasak/Work/chromium/local/workspace1/src/out/Release/libgpu.so>',57888,57888,57888],
+['TPoolAllocator::allocate(unsigned long)',237568,237568,229376],
+['MallocExtension::instance()',213096,217664,213096],
+['std::vector<gpu::gles2::Texture::LevelInfo, std::allocator<gpu::gles2::Texture::LevelInfo> >::_M_default_append(unsigned long)',153120,155760,157080],
+['sh::TFunction::getMangledName() const',147456,147456,139264],
+['gpu::gles2::MemoryProgramCache::SaveLinkedProgram(unsigned int, gpu::gles2::Shader const*, gpu::gles2::Shader const*, std::map<std::string, int, std::less<std::string>, std::allocator<std::pair<std::string const, int> > > const*, std::vector<std::string, std::allocator<std::string> > const&, unsigned int, base::Callback<void (std::string const&, std::string const&), (base::internal::CopyMode)1, (base::internal::RepeatMode)1> const&)',94777,100103,94777],
+['void std::vector<sh::TConstParameter, pool_allocator<sh::TConstParameter> >::_M_insert_aux<sh::TConstParameter const&>(__gnu_cxx::__normal_iterator<sh::TConstParameter*, std::vector<sh::TConstParameter, pool_allocator<sh::TConstParameter> > >, sh::TConstParameter const&)',90112,90112,90112],
       ]);
 
      var options = {

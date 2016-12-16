@@ -44,6 +44,74 @@
   function drawChart1() {
       var data1 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
+['WTF::StringImpl',6180793,6183651,6173021],
+['WTF::KeyValuePair<blink::ShapeCache::SmallStringKey, blink::ShapeCacheEntry>',509952,509952,509952],
+['blink::LayoutObject',481192,481648,484248],
+['WTF::KeyValuePair<WTF::AtomicString, WTF::AtomicString>',365568,371712,357888],
+['blink::HarfBuzzRunGlyphData',308576,306224,309216],
+['WTF::StringImpl *',263168,263168,263168],
+['blink::StyleSurroundData',240656,240448,243360],
+['PartitionAllocator::allocateVectorBacking<char>',231680,231792,231488],
+['blink::StyleRareNonInheritedData',226560,227504,228448],
+['blink::InvalidationSet',224896,224896,224896],
+['WTF::KeyValuePair<WTF::AtomicString, WTF::RefPtr<blink::InvalidationSet> >',220800,220800,220800],
+      ]);
+
+     var options = {
+         title: 'browse_media_imgur.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 3000000,
+             minValue: 0,
+         },
+      };
+
+      var chart1 = new google.visualization.BarChart(document.getElementById('barchart_material1'));
+
+          chart1.draw(data1, options);
+      }
+  
+
+  function drawChart2() {
+      var data2 = google.visualization.arrayToDataTable([
+          ['type','1','2','3','4'],
+['WTF::StringImpl',15946725,15947728,15962787,15947449],
+['blink::CSSSelector',2146176,2150672,2148368,2146176],
+['WTF::AtomicString',1445016,1446680,1448800,1442072],
+['blink::InvalidationSet',1264720,1264720,1268704,1261904],
+['WTF::KeyValuePair<WTF::AtomicString, WTF::RefPtr<blink::InvalidationSet> >',1213952,1214976,1216000,1213056],
+['blink::LayoutObject',547080,547080,547080,542880],
+['blink::StyleRareNonInheritedData',506928,502208,505984,506928],
+['WTF::KeyValuePair<blink::ShapeCache::SmallStringKey, blink::ShapeCacheEntry>',380160,380160,378624,380160],
+['WTF::HashSet<WTF::AtomicString, WTF::AtomicStringHash, WTF::HashTraits<WTF::AtomicString>, WTF::PartitionAllocator>',326040,327096,326496,323712],
+['blink::ComputedStyle',303576,300872,301288,301808],
+['WTF::StringImpl *',295936,295936,295936,295936],
+      ]);
+
+     var options = {
+         title: 'browse_media_pinterest.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 3000000,
+             minValue: 0,
+         },
+      };
+
+      var chart2 = new google.visualization.BarChart(document.getElementById('barchart_material2'));
+
+          chart2.draw(data2, options);
+      }
+  
+
+  function drawChart3() {
+      var data3 = google.visualization.arrayToDataTable([
+          ['type','1','2','3'],
 ['WTF::StringImpl',5304643,5306646,5306683],
 ['GIFLZWBlock',1676608,1676608,1676608],
 ['blink::CSSSelector',684192,683920,683968],
@@ -69,14 +137,48 @@
          },
       };
 
-      var chart1 = new google.visualization.BarChart(document.getElementById('barchart_material1'));
+      var chart3 = new google.visualization.BarChart(document.getElementById('barchart_material3'));
 
-          chart1.draw(data1, options);
+          chart3.draw(data3, options);
       }
   
 
-  function drawChart2() {
-      var data2 = google.visualization.arrayToDataTable([
+  function drawChart4() {
+      var data4 = google.visualization.arrayToDataTable([
+          ['type','1','2','3'],
+['WTF::StringImpl',6302597,6299771,6303627],
+['PartitionAllocator::allocateVectorBacking<char>',1153536,956928,1153536],
+['blink::CSSSelector',1126640,1126576,1126576],
+['blink::LayoutObject',776120,775376,775584],
+['PartitionAllocator::allocateExpandedVectorBacking<char>',448512,448512,448512],
+['WTF::AtomicString',443712,443704,443576],
+['blink::ComputedStyle',366808,364832,365664],
+['blink::InvalidationSet',318336,318240,318816],
+['blink::CSSSelector::RareData',305984,305872,305872],
+['blink::StyleRareNonInheritedData',273288,272816,271872],
+['WTF::StringImpl *',263168,263168,263168],
+      ]);
+
+     var options = {
+         title: 'browse_news_cnn.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 3000000,
+             minValue: 0,
+         },
+      };
+
+      var chart4 = new google.visualization.BarChart(document.getElementById('barchart_material4'));
+
+          chart4.draw(data4, options);
+      }
+  
+
+  function drawChart5() {
+      var data5 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',4096460,4095337,4092197],
 ['PartitionAllocator::allocateExpandedVectorBacking<char>',589824,589824,589824],
@@ -103,14 +205,48 @@
          },
       };
 
-      var chart2 = new google.visualization.BarChart(document.getElementById('barchart_material2'));
+      var chart5 = new google.visualization.BarChart(document.getElementById('barchart_material5'));
 
-          chart2.draw(data2, options);
+          chart5.draw(data5, options);
       }
   
 
-  function drawChart3() {
-      var data3 = google.visualization.arrayToDataTable([
+  function drawChart6() {
+      var data6 = google.visualization.arrayToDataTable([
+          ['type','1','2','3'],
+['WTF::StringImpl',4759645,5674704,5738698],
+['blink::LayoutObject',1659856,1667848,1667320],
+['PartitionAllocator::allocateExpandedVectorBacking<char>',1087488,1116160,1116160],
+['blink::StyleRareNonInheritedData',1017160,1025656,1025184],
+['blink::ComputedStyle',1007136,1005888,1004848],
+['WTF::KeyValuePair<blink::ShapeCache::SmallStringKey, blink::ShapeCacheEntry>',657408,652800,699648],
+['blink::HarfBuzzRunGlyphData',377712,392256,408720],
+['blink::CSSSelector',330480,334720,333072],
+['WTF::AtomicString',271016,272936,272216],
+['WTF::StringImpl *',263168,263168,263168],
+['blink::ShapeResult',234976,244664,249424],
+      ]);
+
+     var options = {
+         title: 'browse_news_nytimes.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 3000000,
+             minValue: 0,
+         },
+      };
+
+      var chart6 = new google.visualization.BarChart(document.getElementById('barchart_material6'));
+
+          chart6.draw(data6, options);
+      }
+  
+
+  function drawChart7() {
+      var data7 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',1385903,1378837,1378017],
 ['WTF::KeyValuePair<blink::ShapeCache::SmallStringKey, blink::ShapeCacheEntry>',1052928,1049856,1058304],
@@ -137,14 +273,48 @@
          },
       };
 
-      var chart3 = new google.visualization.BarChart(document.getElementById('barchart_material3'));
+      var chart7 = new google.visualization.BarChart(document.getElementById('barchart_material7'));
 
-          chart3.draw(data3, options);
+          chart7.draw(data7, options);
       }
   
 
-  function drawChart4() {
-      var data4 = google.visualization.arrayToDataTable([
+  function drawChart8() {
+      var data8 = google.visualization.arrayToDataTable([
+          ['type','1','2','3','4'],
+['WTF::StringImpl',8448809,8446911,4195335,4194527],
+['blink::LayoutObject',840656,841544,0,0],
+['WTF::KeyValuePair<WTF::AtomicString, WTF::RefPtr<blink::InvalidationSet> >',522368,522368,497152,497152],
+['blink::InvalidationSet',507792,507792,475152,475152],
+['blink::CSSSelector',403296,403296,389536,389536],
+['WTF::AtomicString',395048,395040,376680,376680],
+['blink::ComputedStyle',326872,324584,1144,1040],
+['blink::InlineBox',265536,263960,0,0],
+['WTF::StringImpl *',263168,263168,263168,263168],
+['blink::StyleRareNonInheritedData',203904,203432,1416,1416],
+['WTF::KeyValuePair<blink::ShapeCache::SmallStringKey, blink::ShapeCacheEntry>',168192,167424,152064,152064],
+      ]);
+
+     var options = {
+         title: 'browse_social_twitter.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 3000000,
+             minValue: 0,
+         },
+      };
+
+      var chart8 = new google.visualization.BarChart(document.getElementById('barchart_material8'));
+
+          chart8.draw(data8, options);
+      }
+  
+
+  function drawChart9() {
+      var data9 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',2690458,2690438,2691498],
 ['blink::CSSSelector',169872,169872,169872],
@@ -171,14 +341,14 @@
          },
       };
 
-      var chart4 = new google.visualization.BarChart(document.getElementById('barchart_material4'));
+      var chart9 = new google.visualization.BarChart(document.getElementById('barchart_material9'));
 
-          chart4.draw(data4, options);
+          chart9.draw(data9, options);
       }
   
 
-  function drawChart5() {
-      var data5 = google.visualization.arrayToDataTable([
+  function drawChart10() {
+      var data10 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::ArrayBufferContents',1554944,1554944,1554944],
 ['WTF::StringImpl',710811,710876,710702],
@@ -187,9 +357,9 @@
 ['WTF::StringImpl *',33792,33792,33792],
 ['blink::QualifiedName::QualifiedNameImpl',31000,31000,31000],
 ['blink::CSSSelector',24304,24304,24304],
+['blink::PODArena',16384,16384,16384],
 ['blink::QualifiedName::QualifiedNameImpl *',16384,16384,16384],
 ['WTF::KeyValuePair<WTF::String, UScriptCode>',16384,16384,16384],
-['blink::PODArena',16384,16384,16384],
 ['blink::StyleRareNonInheritedData',15104,15104,15104],
       ]);
 
@@ -205,14 +375,14 @@
          },
       };
 
-      var chart5 = new google.visualization.BarChart(document.getElementById('barchart_material5'));
+      var chart10 = new google.visualization.BarChart(document.getElementById('barchart_material10'));
 
-          chart5.draw(data5, options);
+          chart10.draw(data10, options);
       }
   
 
-  function drawChart6() {
-      var data6 = google.visualization.arrayToDataTable([
+  function drawChart11() {
+      var data11 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::KeyValuePair<unsigned int, WTF::StringImpl *>',65536,65536,65536],
 ['WTF::StringImpl',51419,51419,51419],
@@ -239,14 +409,14 @@
          },
       };
 
-      var chart6 = new google.visualization.BarChart(document.getElementById('barchart_material6'));
+      var chart11 = new google.visualization.BarChart(document.getElementById('barchart_material11'));
 
-          chart6.draw(data6, options);
+          chart11.draw(data11, options);
       }
   
 
-  function drawChart7() {
-      var data7 = google.visualization.arrayToDataTable([
+  function drawChart12() {
+      var data12 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',3342927,3342134,3341984],
 ['blink::LayoutObject',261144,262464,261592],
@@ -273,20 +443,20 @@
          },
       };
 
-      var chart7 = new google.visualization.BarChart(document.getElementById('barchart_material7'));
+      var chart12 = new google.visualization.BarChart(document.getElementById('barchart_material12'));
 
-          chart7.draw(data7, options);
+          chart12.draw(data12, options);
       }
   
 
-  function drawChart8() {
-      var data8 = google.visualization.arrayToDataTable([
+  function drawChart13() {
+      var data13 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',1037844,1038447,1038275],
 ['WTF::KeyValuePair<WTF::AtomicString, WTF::RefPtr<blink::InvalidationSet> >',76032,75904,75904],
 ['blink::InvalidationSet',69552,69552,69552],
-['WTF::StringImpl *',65536,65536,65536],
 ['WTF::KeyValuePair<unsigned int, WTF::StringImpl *>',65536,65536,65536],
+['WTF::StringImpl *',65536,65536,65536],
 ['WTF::KeyValuePair<WTF::AtomicString, WTF::AtomicString>',36096,36096,35584],
 ['blink::CSSSelector',35088,35088,35088],
 ['blink::QualifiedName::QualifiedNameImpl',29840,29840,29840],
@@ -307,14 +477,14 @@
          },
       };
 
-      var chart8 = new google.visualization.BarChart(document.getElementById('barchart_material8'));
+      var chart13 = new google.visualization.BarChart(document.getElementById('barchart_material13'));
 
-          chart8.draw(data8, options);
+          chart13.draw(data13, options);
       }
   
 
-  function drawChart9() {
-      var data9 = google.visualization.arrayToDataTable([
+  function drawChart14() {
+      var data14 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',3343124,3344016,3345140],
 ['blink::LayoutObject',237672,234512,234512],
@@ -341,14 +511,14 @@
          },
       };
 
-      var chart9 = new google.visualization.BarChart(document.getElementById('barchart_material9'));
+      var chart14 = new google.visualization.BarChart(document.getElementById('barchart_material14'));
 
-          chart9.draw(data9, options);
+          chart14.draw(data14, options);
       }
   
 
-  function drawChart10() {
-      var data10 = google.visualization.arrayToDataTable([
+  function drawChart15() {
+      var data15 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',3885603,3887682,3885862],
 ['blink::LayoutObject',334392,334256,335152],
@@ -375,14 +545,14 @@
          },
       };
 
-      var chart10 = new google.visualization.BarChart(document.getElementById('barchart_material10'));
+      var chart15 = new google.visualization.BarChart(document.getElementById('barchart_material15'));
 
-          chart10.draw(data10, options);
+          chart15.draw(data15, options);
       }
   
 
-  function drawChart11() {
-      var data11 = google.visualization.arrayToDataTable([
+  function drawChart16() {
+      var data16 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',3526888,3527955,3527169],
 ['blink::CSSSelector',636368,636880,636368],
@@ -409,14 +579,14 @@
          },
       };
 
-      var chart11 = new google.visualization.BarChart(document.getElementById('barchart_material11'));
+      var chart16 = new google.visualization.BarChart(document.getElementById('barchart_material16'));
 
-          chart11.draw(data11, options);
+          chart16.draw(data16, options);
       }
   
 
-  function drawChart12() {
-      var data12 = google.visualization.arrayToDataTable([
+  function drawChart17() {
+      var data17 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',3322048,3321191,3321150],
 ['blink::LayoutObject',178880,186056,186056],
@@ -443,14 +613,14 @@
          },
       };
 
-      var chart12 = new google.visualization.BarChart(document.getElementById('barchart_material12'));
+      var chart17 = new google.visualization.BarChart(document.getElementById('barchart_material17'));
 
-          chart12.draw(data12, options);
+          chart17.draw(data17, options);
       }
   
 
-  function drawChart13() {
-      var data13 = google.visualization.arrayToDataTable([
+  function drawChart18() {
+      var data18 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',4299139,4277404,4301590],
 ['blink::LayoutObject',472144,470072,471784],
@@ -477,14 +647,14 @@
          },
       };
 
-      var chart13 = new google.visualization.BarChart(document.getElementById('barchart_material13'));
+      var chart18 = new google.visualization.BarChart(document.getElementById('barchart_material18'));
 
-          chart13.draw(data13, options);
+          chart18.draw(data18, options);
       }
   
 
-  function drawChart14() {
-      var data14 = google.visualization.arrayToDataTable([
+  function drawChart19() {
+      var data19 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',5048780,5048785,5048885],
 ['blink::LayoutObject',427224,427248,430936],
@@ -511,14 +681,14 @@
          },
       };
 
-      var chart14 = new google.visualization.BarChart(document.getElementById('barchart_material14'));
+      var chart19 = new google.visualization.BarChart(document.getElementById('barchart_material19'));
 
-          chart14.draw(data14, options);
+          chart19.draw(data19, options);
       }
   
 
-  function drawChart15() {
-      var data15 = google.visualization.arrayToDataTable([
+  function drawChart20() {
+      var data20 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',2610693,2606514,2607894],
 ['WTF::ArrayBufferContents',1694958,1374584,1374584],
@@ -545,14 +715,14 @@
          },
       };
 
-      var chart15 = new google.visualization.BarChart(document.getElementById('barchart_material15'));
+      var chart20 = new google.visualization.BarChart(document.getElementById('barchart_material20'));
 
-          chart15.draw(data15, options);
+          chart20.draw(data20, options);
       }
   
 
-  function drawChart16() {
-      var data16 = google.visualization.arrayToDataTable([
+  function drawChart21() {
+      var data21 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',1376659,1375951,1376272],
 ['blink::CSSSelector',452704,452704,452704],
@@ -579,14 +749,48 @@
          },
       };
 
-      var chart16 = new google.visualization.BarChart(document.getElementById('barchart_material16'));
+      var chart21 = new google.visualization.BarChart(document.getElementById('barchart_material21'));
 
-          chart16.draw(data16, options);
+          chart21.draw(data21, options);
       }
   
 
-  function drawChart17() {
-      var data17 = google.visualization.arrayToDataTable([
+  function drawChart22() {
+      var data22 = google.visualization.arrayToDataTable([
+          ['type','1','2','3'],
+['WTF::StringImpl',6390756,6307726,6357905],
+['blink::CSSSelector',1130944,1132048,1132048],
+['blink::LayoutObject',749000,749056,748808],
+['WTF::AtomicString',429984,430368,429984],
+['PartitionAllocator::allocateExpandedVectorBacking<char>',391168,358400,391168],
+['blink::ComputedStyle',360256,360256,363376],
+['blink::InvalidationSet',321408,321408,321408],
+['blink::CSSSelector::RareData',296016,295680,295680],
+['WTF::KeyValuePair<WTF::AtomicString, WTF::RefPtr<blink::InvalidationSet> >',242304,242304,242304],
+['blink::StyleRareNonInheritedData',218536,218536,218536],
+['blink::DocumentWriteEvaluator',191376,165024,181872],
+      ]);
+
+     var options = {
+         title: 'load_news_cnn.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 3000000,
+             minValue: 0,
+         },
+      };
+
+      var chart22 = new google.visualization.BarChart(document.getElementById('barchart_material22'));
+
+          chart22.draw(data22, options);
+      }
+  
+
+  function drawChart23() {
+      var data23 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',3690159,3689715,3690259],
 ['PartitionAllocator::allocateExpandedVectorBacking<char>',360448,360448,360448],
@@ -613,14 +817,14 @@
          },
       };
 
-      var chart17 = new google.visualization.BarChart(document.getElementById('barchart_material17'));
+      var chart23 = new google.visualization.BarChart(document.getElementById('barchart_material23'));
 
-          chart17.draw(data17, options);
+          chart23.draw(data23, options);
       }
   
 
-  function drawChart18() {
-      var data18 = google.visualization.arrayToDataTable([
+  function drawChart24() {
+      var data24 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['blink::LayoutObject',245800,245800,245800],
 ['WTF::KeyValuePair<unsigned int, WTF::StringImpl *>',65536,65536,65536],
@@ -647,14 +851,48 @@
          },
       };
 
-      var chart18 = new google.visualization.BarChart(document.getElementById('barchart_material18'));
+      var chart24 = new google.visualization.BarChart(document.getElementById('barchart_material24'));
 
-          chart18.draw(data18, options);
+          chart24.draw(data24, options);
       }
   
 
-  function drawChart19() {
-      var data19 = google.visualization.arrayToDataTable([
+  function drawChart25() {
+      var data25 = google.visualization.arrayToDataTable([
+          ['type','1','2','3','4'],
+['WTF::StringImpl',5213508,5209942,5209586,5195884],
+['blink::LayoutObject',1646096,1647920,1648072,1646248],
+['blink::StyleRareNonInheritedData',995448,1012440,1011968,989312],
+['blink::ComputedStyle',995488,1004536,1004224,920816],
+['PartitionAllocator::allocateExpandedVectorBacking<char>',835584,835584,835584,835584],
+['WTF::KeyValuePair<blink::ShapeCache::SmallStringKey, blink::ShapeCacheEntry>',336384,334080,424704,428544],
+['blink::CSSSelector',328624,328624,328624,328624],
+['WTF::AtomicString',285400,277912,289624,266840],
+['blink::HarfBuzzRunGlyphData',214576,211856,263712,268064],
+['WTF::StringImpl *',263168,263168,263168,263168],
+['PartitionAllocator::allocateVectorBacking<char>',250624,252928,254848,248320],
+      ]);
+
+     var options = {
+         title: 'load_news_nytimes.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 3000000,
+             minValue: 0,
+         },
+      };
+
+      var chart25 = new google.visualization.BarChart(document.getElementById('barchart_material25'));
+
+          chart25.draw(data25, options);
+      }
+  
+
+  function drawChart26() {
+      var data26 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::ArrayBufferContents',9443183,9796505,6035698],
 ['WTF::StringImpl',3572956,3978310,3609024],
@@ -681,14 +919,14 @@
          },
       };
 
-      var chart19 = new google.visualization.BarChart(document.getElementById('barchart_material19'));
+      var chart26 = new google.visualization.BarChart(document.getElementById('barchart_material26'));
 
-          chart19.draw(data19, options);
+          chart26.draw(data26, options);
       }
   
 
-  function drawChart20() {
-      var data20 = google.visualization.arrayToDataTable([
+  function drawChart27() {
+      var data27 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',1373860,1376318,1374728],
 ['blink::LayoutObject',317768,318944,316184],
@@ -715,14 +953,14 @@
          },
       };
 
-      var chart20 = new google.visualization.BarChart(document.getElementById('barchart_material20'));
+      var chart27 = new google.visualization.BarChart(document.getElementById('barchart_material27'));
 
-          chart20.draw(data20, options);
+          chart27.draw(data27, options);
       }
   
 
-  function drawChart21() {
-      var data21 = google.visualization.arrayToDataTable([
+  function drawChart28() {
+      var data28 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['blink::LayoutObject',1294736,1294736,1293480],
 ['WTF::StringImpl',1255176,1256591,1255619],
@@ -749,14 +987,14 @@
          },
       };
 
-      var chart21 = new google.visualization.BarChart(document.getElementById('barchart_material21'));
+      var chart28 = new google.visualization.BarChart(document.getElementById('barchart_material28'));
 
-          chart21.draw(data21, options);
+          chart28.draw(data28, options);
       }
   
 
-  function drawChart22() {
-      var data22 = google.visualization.arrayToDataTable([
+  function drawChart29() {
+      var data29 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',2023455,2025067,2023974],
 ['blink::LayoutObject',1438744,1438096,1439592],
@@ -783,14 +1021,14 @@
          },
       };
 
-      var chart22 = new google.visualization.BarChart(document.getElementById('barchart_material22'));
+      var chart29 = new google.visualization.BarChart(document.getElementById('barchart_material29'));
 
-          chart22.draw(data22, options);
+          chart29.draw(data29, options);
       }
   
 
-  function drawChart23() {
-      var data23 = google.visualization.arrayToDataTable([
+  function drawChart30() {
+      var data30 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',1097358,1097317,1097317],
 ['blink::LayoutObject',166928,171960,172112],
@@ -817,14 +1055,14 @@
          },
       };
 
-      var chart23 = new google.visualization.BarChart(document.getElementById('barchart_material23'));
+      var chart30 = new google.visualization.BarChart(document.getElementById('barchart_material30'));
 
-          chart23.draw(data23, options);
+          chart30.draw(data30, options);
       }
   
 
-  function drawChart24() {
-      var data24 = google.visualization.arrayToDataTable([
+  function drawChart31() {
+      var data31 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',1731875,1728814,1731918],
 ['blink::LayoutObject',893240,893240,892992],
@@ -851,14 +1089,14 @@
          },
       };
 
-      var chart24 = new google.visualization.BarChart(document.getElementById('barchart_material24'));
+      var chart31 = new google.visualization.BarChart(document.getElementById('barchart_material31'));
 
-          chart24.draw(data24, options);
+          chart31.draw(data31, options);
       }
   
 
-  function drawChart25() {
-      var data25 = google.visualization.arrayToDataTable([
+  function drawChart32() {
+      var data32 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',1305601,1305560,1305601],
 ['WTF::StringImpl *',66560,66560,66560],
@@ -885,14 +1123,14 @@
          },
       };
 
-      var chart25 = new google.visualization.BarChart(document.getElementById('barchart_material25'));
+      var chart32 = new google.visualization.BarChart(document.getElementById('barchart_material32'));
 
-          chart25.draw(data25, options);
+          chart32.draw(data32, options);
       }
   
 
-  function drawChart26() {
-      var data26 = google.visualization.arrayToDataTable([
+  function drawChart33() {
+      var data33 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',1958067,1958734,1452022],
 ['blink::LayoutObject',237208,219672,129328],
@@ -919,14 +1157,14 @@
          },
       };
 
-      var chart26 = new google.visualization.BarChart(document.getElementById('barchart_material26'));
+      var chart33 = new google.visualization.BarChart(document.getElementById('barchart_material33'));
 
-          chart26.draw(data26, options);
+          chart33.draw(data33, options);
       }
   
 
-  function drawChart27() {
-      var data27 = google.visualization.arrayToDataTable([
+  function drawChart34() {
+      var data34 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',751186,750617,751145],
 ['blink::InvalidationSet',231264,231264,231264],
@@ -953,14 +1191,14 @@
          },
       };
 
-      var chart27 = new google.visualization.BarChart(document.getElementById('barchart_material27'));
+      var chart34 = new google.visualization.BarChart(document.getElementById('barchart_material34'));
 
-          chart27.draw(data27, options);
+          chart34.draw(data34, options);
       }
   
 
-  function drawChart28() {
-      var data28 = google.visualization.arrayToDataTable([
+  function drawChart35() {
+      var data35 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',1032679,1034340,1031717],
 ['blink::LayoutObject',116376,116376,116376],
@@ -987,14 +1225,14 @@
          },
       };
 
-      var chart28 = new google.visualization.BarChart(document.getElementById('barchart_material28'));
+      var chart35 = new google.visualization.BarChart(document.getElementById('barchart_material35'));
 
-          chart28.draw(data28, options);
+          chart35.draw(data35, options);
       }
   
 
-  function drawChart29() {
-      var data29 = google.visualization.arrayToDataTable([
+  function drawChart36() {
+      var data36 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',3311096,3321835,3323837],
 ['WTF::ArrayBufferContents',1755170,1755170,1755170],
@@ -1021,14 +1259,14 @@
          },
       };
 
-      var chart29 = new google.visualization.BarChart(document.getElementById('barchart_material29'));
+      var chart36 = new google.visualization.BarChart(document.getElementById('barchart_material36'));
 
-          chart29.draw(data29, options);
+          chart36.draw(data36, options);
       }
   
 
-  function drawChart30() {
-      var data30 = google.visualization.arrayToDataTable([
+  function drawChart37() {
+      var data37 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',1906586,1905982,1906057],
 ['PartitionAllocator::allocateExpandedVectorBacking<char>',77824,77824,77824],
@@ -1055,14 +1293,14 @@
          },
       };
 
-      var chart30 = new google.visualization.BarChart(document.getElementById('barchart_material30'));
+      var chart37 = new google.visualization.BarChart(document.getElementById('barchart_material37'));
 
-          chart30.draw(data30, options);
+          chart37.draw(data37, options);
       }
   
 
-  function drawChart31() {
-      var data31 = google.visualization.arrayToDataTable([
+  function drawChart38() {
+      var data38 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',13111545,13112054,13112295],
 ['blink::LayoutObject',1086608,1086608,1085656],
@@ -1089,14 +1327,14 @@
          },
       };
 
-      var chart31 = new google.visualization.BarChart(document.getElementById('barchart_material31'));
+      var chart38 = new google.visualization.BarChart(document.getElementById('barchart_material38'));
 
-          chart31.draw(data31, options);
+          chart38.draw(data38, options);
       }
   
 
-  function drawChart32() {
-      var data32 = google.visualization.arrayToDataTable([
+  function drawChart39() {
+      var data39 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',811462,812207,812165],
 ['blink::LayoutObject',186264,185904,186264],
@@ -1123,14 +1361,14 @@
          },
       };
 
-      var chart32 = new google.visualization.BarChart(document.getElementById('barchart_material32'));
+      var chart39 = new google.visualization.BarChart(document.getElementById('barchart_material39'));
 
-          chart32.draw(data32, options);
+          chart39.draw(data39, options);
       }
   
 
-  function drawChart33() {
-      var data33 = google.visualization.arrayToDataTable([
+  function drawChart40() {
+      var data40 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',5803309,5802810,5804428],
 ['blink::LayoutObject',825568,825568,825568],
@@ -1157,14 +1395,14 @@
          },
       };
 
-      var chart33 = new google.visualization.BarChart(document.getElementById('barchart_material33'));
+      var chart40 = new google.visualization.BarChart(document.getElementById('barchart_material40'));
 
-          chart33.draw(data33, options);
+          chart40.draw(data40, options);
       }
   
 
-  function drawChart34() {
-      var data34 = google.visualization.arrayToDataTable([
+  function drawChart41() {
+      var data41 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',1587901,1587901,1587918],
 ['blink::LayoutObject',437832,437832,437832],
@@ -1191,14 +1429,14 @@
          },
       };
 
-      var chart34 = new google.visualization.BarChart(document.getElementById('barchart_material34'));
+      var chart41 = new google.visualization.BarChart(document.getElementById('barchart_material41'));
 
-          chart34.draw(data34, options);
+          chart41.draw(data41, options);
       }
   
 
-  function drawChart35() {
-      var data35 = google.visualization.arrayToDataTable([
+  function drawChart42() {
+      var data42 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',2609390,2580771,2606624],
 ['blink::LayoutObject',413272,413024,413024],
@@ -1225,14 +1463,48 @@
          },
       };
 
-      var chart35 = new google.visualization.BarChart(document.getElementById('barchart_material35'));
+      var chart42 = new google.visualization.BarChart(document.getElementById('barchart_material42'));
 
-          chart35.draw(data35, options);
+          chart42.draw(data42, options);
       }
   
 
-  function drawChart36() {
-      var data36 = google.visualization.arrayToDataTable([
+  function drawChart43() {
+      var data43 = google.visualization.arrayToDataTable([
+          ['type','1','2','3','4'],
+['WTF::StringImpl',3281734,3010346,3010132,3302227],
+['blink::InvalidationSet',391072,389872,389872,392224],
+['WTF::KeyValuePair<WTF::AtomicString, WTF::RefPtr<blink::InvalidationSet> >',335488,334976,334976,337152],
+['WTF::StringImpl *',295936,263168,263168,295936],
+['WTF::KeyValuePair<WTF::AtomicString, WTF::AtomicString>',247936,107136,107136,286336],
+['blink::StyleRareNonInheritedData',271400,265736,267152,268568],
+['blink::CSSSelector',262144,262144,262144,262144],
+['blink::LayoutObject',225576,223144,220640,225576],
+['WTF::AtomicString',207472,205784,206832,208176],
+['blink::ComputedStyle',157976,157456,161408,161200],
+['PartitionAllocator::allocateExpandedVectorBacking<char>',100352,100352,100352,100352],
+      ]);
+
+     var options = {
+         title: 'load_tools_drive.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 3000000,
+             minValue: 0,
+         },
+      };
+
+      var chart43 = new google.visualization.BarChart(document.getElementById('barchart_material43'));
+
+          chart43.draw(data43, options);
+      }
+  
+
+  function drawChart44() {
+      var data44 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',6161436,6157379,6155922],
 ['blink::CSSSelector',685664,685520,685520],
@@ -1259,14 +1531,14 @@
          },
       };
 
-      var chart36 = new google.visualization.BarChart(document.getElementById('barchart_material36'));
+      var chart44 = new google.visualization.BarChart(document.getElementById('barchart_material44'));
 
-          chart36.draw(data36, options);
+          chart44.draw(data44, options);
       }
   
 
-  function drawChart37() {
-      var data37 = google.visualization.arrayToDataTable([
+  function drawChart45() {
+      var data45 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',8824987,8821295,9407110],
 ['blink::InvalidationSet',1496944,1496944,1496416],
@@ -1293,14 +1565,14 @@
          },
       };
 
-      var chart37 = new google.visualization.BarChart(document.getElementById('barchart_material37'));
+      var chart45 = new google.visualization.BarChart(document.getElementById('barchart_material45'));
 
-          chart37.draw(data37, options);
+          chart45.draw(data45, options);
       }
   
 
-  function drawChart38() {
-      var data38 = google.visualization.arrayToDataTable([
+  function drawChart46() {
+      var data46 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::ArrayBufferContents',9119310,9236529,8959427],
 ['WTF::StringImpl',4102641,4103909,4102921],
@@ -1327,14 +1599,14 @@
          },
       };
 
-      var chart38 = new google.visualization.BarChart(document.getElementById('barchart_material38'));
+      var chart46 = new google.visualization.BarChart(document.getElementById('barchart_material46'));
 
-          chart38.draw(data38, options);
+          chart46.draw(data46, options);
       }
   
 
-  function drawChart39() {
-      var data39 = google.visualization.arrayToDataTable([
+  function drawChart47() {
+      var data47 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['blink::LayoutObject',1085952,1085528,1085400],
 ['WTF::StringImpl',978693,979584,977295],
@@ -1361,14 +1633,48 @@
          },
       };
 
-      var chart39 = new google.visualization.BarChart(document.getElementById('barchart_material39'));
+      var chart47 = new google.visualization.BarChart(document.getElementById('barchart_material47'));
 
-          chart39.draw(data39, options);
+          chart47.draw(data47, options);
       }
   
 
-  function drawChart40() {
-      var data40 = google.visualization.arrayToDataTable([
+  function drawChart48() {
+      var data48 = google.visualization.arrayToDataTable([
+          ['type','1','2','3'],
+['WTF::StringImpl',8045946,8091512,8089285],
+['blink::SharedBuffer',527648,527072,650480],
+['PartitionAllocator::allocateVectorBacking<char>',435456,432128,317456],
+['blink::LayoutObject',370920,373376,376848],
+['unsigned short',339968,339968,339968],
+['blink::InvalidationSet',265824,265824,251040],
+['WTF::KeyValuePair<WTF::AtomicString, WTF::RefPtr<blink::InvalidationSet> >',246784,246784,236032],
+['blink::ComputedStyle',232544,233272,236600],
+['PartitionAllocator::allocateExpandedVectorBacking<char>',236544,236544,121856],
+['blink::StyleRareNonInheritedData',221840,224200,229392],
+['WTF::StringImpl *',164864,164864,164864],
+      ]);
+
+     var options = {
+         title: 'load_tools_weather.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 3000000,
+             minValue: 0,
+         },
+      };
+
+      var chart48 = new google.visualization.BarChart(document.getElementById('barchart_material48'));
+
+          chart48.draw(data48, options);
+      }
+  
+
+  function drawChart49() {
+      var data49 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['WTF::StringImpl',2008407,2008219,2008213],
 ['blink::LayoutObject',1388880,1388880,1388880],
@@ -1395,9 +1701,9 @@
          },
       };
 
-      var chart40 = new google.visualization.BarChart(document.getElementById('barchart_material40'));
+      var chart49 = new google.visualization.BarChart(document.getElementById('barchart_material49'));
 
-          chart40.draw(data40, options);
+          chart49.draw(data49, options);
       }
   
 </script>
@@ -1444,6 +1750,15 @@ drawChart37();
 drawChart38();
 drawChart39();
 drawChart40();
+drawChart41();
+drawChart42();
+drawChart43();
+drawChart44();
+drawChart45();
+drawChart46();
+drawChart47();
+drawChart48();
+drawChart49();
 }
 
 google.charts.setOnLoadCallback(drawChart);
@@ -1491,6 +1806,15 @@ google.charts.setOnLoadCallback(drawChart);
 <div id="barchart_material38" style="width: 1200px; height: 500px;"></div>
 <div id="barchart_material39" style="width: 1200px; height: 500px;"></div>
 <div id="barchart_material40" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material41" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material42" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material43" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material44" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material45" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material46" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material47" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material48" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material49" style="width: 1200px; height: 500px;"></div>
   </body>
 </html>
 

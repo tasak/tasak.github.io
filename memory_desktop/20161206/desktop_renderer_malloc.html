@@ -44,6 +44,74 @@
   function drawChart1() {
       var data1 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
+['SkRWBuffer::append(void const*, unsigned long, unsigned long)',16042192,15985511,16059046],
+['media::DataBuffer::DataBuffer(int)',2392064,2392064,2392064],
+['v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',1114770,1082999,1090833],
+['SkRWBuffer::SkRWBuffer(unsigned long)',655409,712090,638579],
+['blink::FrameLoader::dispatchDidClearDocumentOfWindowObject()',517803,550675,484531],
+['SkGlyphCache::findImage(SkGlyph const&)',501340,525360,525877],
+['cc::ContiguousContainerBase::Allocate(unsigned long)',312000,312000,312000],
+['blink::LayoutBlockFlow::positionAndLayoutOnceIfNeeded(blink::LayoutBox&, blink::LayoutUnit, blink::BlockChildrenLayoutInfo&)',172461,285473,284017],
+['SkTHashTable<SkGlyph, SkPackedGlyphID, SkGlyph::HashTraits>::resize(int)',233664,225984,220992],
+['std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)',185355,180211,185357],
+['blink::WebFontDecoder::decode(blink::SharedBuffer*)',159308,159308,159308],
+      ]);
+
+     var options = {
+         title: 'browse_media_imgur.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 1000000,
+             minValue: 0,
+         },
+      };
+
+      var chart1 = new google.visualization.BarChart(document.getElementById('barchart_material1'));
+
+          chart1.draw(data1, options);
+      }
+  
+
+  function drawChart2() {
+      var data2 = google.visualization.arrayToDataTable([
+          ['type','1','2','3','4'],
+['SkRWBuffer::append(void const*, unsigned long, unsigned long)',3842382,3821312,3863760,3850574],
+['SkRWBuffer::SkRWBuffer(unsigned long)',1539520,1560566,1539520,1531328],
+['blink::LayoutBlockFlow::layoutBlock(bool)',471687,471927,471927,471927],
+['v8::internal::Execution::TryCall(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*, v8::internal::MaybeHandle<v8::internal::Object>*)',270556,325888,286348,290516],
+['SkGlyphCache::findImage(SkGlyph const&)',267348,316344,318396,319248],
+['cc::ContiguousContainerBase::Allocate(unsigned long)',248000,248000,248000,248000],
+['v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',221392,240465,217044,177635],
+['SkTHashTable<SkGlyph, SkPackedGlyphID, SkGlyph::HashTraits>::resize(int)',173952,192192,213888,201408],
+['blink::LayoutBlock::layout()',185209,184569,185897,152333],
+['std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)',178320,178320,178320,170128],
+['v8::internal::Isolate::Init(v8::internal::Deserializer*)',174320,174320,174320,174320],
+      ]);
+
+     var options = {
+         title: 'browse_media_pinterest.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 1000000,
+             minValue: 0,
+         },
+      };
+
+      var chart2 = new google.visualization.BarChart(document.getElementById('barchart_material2'));
+
+          chart2.draw(data2, options);
+      }
+  
+
+  function drawChart3() {
+      var data3 = google.visualization.arrayToDataTable([
+          ['type','1','2','3'],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',46065262,46054866,46065964],
 ['SkBitmap::HeapAllocator::allocPixelRef(SkBitmap*, SkColorTable*)',9392180,7663540,9462340],
 ['blink::WebFontDecoder::decode(blink::SharedBuffer*)',692964,692964,692964],
@@ -69,14 +137,48 @@
          },
       };
 
-      var chart1 = new google.visualization.BarChart(document.getElementById('barchart_material1'));
+      var chart3 = new google.visualization.BarChart(document.getElementById('barchart_material3'));
 
-          chart1.draw(data1, options);
+          chart3.draw(data3, options);
       }
   
 
-  function drawChart2() {
-      var data2 = google.visualization.arrayToDataTable([
+  function drawChart4() {
+      var data4 = google.visualization.arrayToDataTable([
+          ['type','1','2','3'],
+['media::DataBuffer::DataBuffer(int)',6553600,6520832,5963776],
+['SkGlyphCache::findImage(SkGlyph const&)',3543774,3446758,3403238],
+['av_reallocp',3145824,3145824,3145824],
+['blink::WebFontDecoder::decode(blink::SharedBuffer*)',2596364,2596364,2596364],
+['v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',2025189,1954847,2057646],
+['SkRWBuffer::SkRWBuffer(unsigned long)',1826600,1650359,1826600],
+['SkRWBuffer::append(void const*, unsigned long, unsigned long)',940331,1112452,940309],
+['SkTHashTable<SkGlyph, SkPackedGlyphID, SkGlyph::HashTraits>::resize(int)',1063680,1054656,1049664],
+['blink::LayoutBlockFlow::positionAndLayoutOnceIfNeeded(blink::LayoutBox&, blink::LayoutUnit, blink::BlockChildrenLayoutInfo&)',540376,543368,542041],
+['blink::FrameLoader::dispatchDidClearDocumentOfWindowObject()',429807,388607,457680],
+['blink::LayoutBlock::layout()',248274,254638,252906],
+      ]);
+
+     var options = {
+         title: 'browse_news_cnn.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 1000000,
+             minValue: 0,
+         },
+      };
+
+      var chart4 = new google.visualization.BarChart(document.getElementById('barchart_material4'));
+
+          chart4.draw(data4, options);
+      }
+  
+
+  function drawChart5() {
+      var data5 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',37373785,37476276,37397394],
 ['blink::WebFontDecoder::decode(blink::SharedBuffer*)',1448464,1448464,1448464],
@@ -103,14 +205,48 @@
          },
       };
 
-      var chart2 = new google.visualization.BarChart(document.getElementById('barchart_material2'));
+      var chart5 = new google.visualization.BarChart(document.getElementById('barchart_material5'));
 
-          chart2.draw(data2, options);
+          chart5.draw(data5, options);
       }
   
 
-  function drawChart3() {
-      var data3 = google.visualization.arrayToDataTable([
+  function drawChart6() {
+      var data6 = google.visualization.arrayToDataTable([
+          ['type','1','2','3'],
+['SkGlyphCache::findImage(SkGlyph const&)',2544638,2593383,2651492],
+['v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',1724791,1996543,1882822],
+['blink::WebFontDecoder::decode(blink::SharedBuffer*)',1345104,1346564,1346564],
+['SkTHashTable<SkGlyph, SkPackedGlyphID, SkGlyph::HashTraits>::resize(int)',1031232,1040832,1076928],
+['v8::Function::Call(v8::Local<v8::Context>, v8::Local<v8::Value>, int, v8::Local<v8::Value>*)',575525,576885,576693],
+['blink::Resource::didAddClient(blink::ResourceClient*)',545504,545824,545824],
+['blink::LayoutBlockFlow::positionAndLayoutOnceIfNeeded(blink::LayoutBox&, blink::LayoutUnit, blink::BlockChildrenLayoutInfo&)',518342,482921,426123],
+['SkRWBuffer::SkRWBuffer(unsigned long)',329140,452020,419252],
+['SkRWBuffer::append(void const*, unsigned long, unsigned long)',337439,337439,337439],
+['blink::FrameLoader::dispatchDidClearDocumentOfWindowObject()',335319,311007,286271],
+['blink::LayoutBlockFlow::layoutBlockFlow(bool, blink::SubtreeLayoutScope&)',303992,296982,268790],
+      ]);
+
+     var options = {
+         title: 'browse_news_nytimes.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 1000000,
+             minValue: 0,
+         },
+      };
+
+      var chart6 = new google.visualization.BarChart(document.getElementById('barchart_material6'));
+
+          chart6.draw(data6, options);
+      }
+  
+
+  function drawChart7() {
+      var data7 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkGlyphCache::findImage(SkGlyph const&)',2086300,2001391,2169310],
 ['SkTHashTable<SkGlyph, SkPackedGlyphID, SkGlyph::HashTraits>::resize(int)',927936,878976,983616],
@@ -137,14 +273,48 @@
          },
       };
 
-      var chart3 = new google.visualization.BarChart(document.getElementById('barchart_material3'));
+      var chart7 = new google.visualization.BarChart(document.getElementById('barchart_material7'));
 
-          chart3.draw(data3, options);
+          chart7.draw(data7, options);
       }
   
 
-  function drawChart4() {
-      var data4 = google.visualization.arrayToDataTable([
+  function drawChart8() {
+      var data8 = google.visualization.arrayToDataTable([
+          ['type','1','2','3','4'],
+['media::DataBuffer::DataBuffer(int)',2654208,1212416,0,0],
+['SkRWBuffer::append(void const*, unsigned long, unsigned long)',1282121,1280836,1044240,1044240],
+['av_reallocp',1048608,1048608,0,0],
+['SkGlyphCache::findImage(SkGlyph const&)',708839,681293,696884,634388],
+['SkRWBuffer::SkRWBuffer(unsigned long)',557056,557056,172032,172032],
+['v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',546691,521864,362648,412281],
+['SkTHashTable<SkGlyph, SkPackedGlyphID, SkGlyph::HashTraits>::resize(int)',321792,285120,334080,287232],
+['blink::LayoutBlock::layout()',224919,224935,163311,163311],
+['std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)',194709,190613,175470,175470],
+['blink::LayoutBlockFlow::layoutBlockFlow(bool, blink::SubtreeLayoutScope&)',192976,186396,164020,164724],
+['blink::LayoutBlockFlow::positionAndLayoutOnceIfNeeded(blink::LayoutBox&, blink::LayoutUnit, blink::BlockChildrenLayoutInfo&)',182052,182052,181908,173204],
+      ]);
+
+     var options = {
+         title: 'browse_social_twitter.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 1000000,
+             minValue: 0,
+         },
+      };
+
+      var chart8 = new google.visualization.BarChart(document.getElementById('barchart_material8'));
+
+          chart8.draw(data8, options);
+      }
+  
+
+  function drawChart9() {
+      var data9 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['blink::LayoutBlockFlow::layoutBlock(bool)',827444,855988,728521],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',548965,548965,548965],
@@ -171,14 +341,14 @@
          },
       };
 
-      var chart4 = new google.visualization.BarChart(document.getElementById('barchart_material4'));
+      var chart9 = new google.visualization.BarChart(document.getElementById('barchart_material9'));
 
-          chart4.draw(data4, options);
+          chart9.draw(data9, options);
       }
   
 
-  function drawChart5() {
-      var data5 = google.visualization.arrayToDataTable([
+  function drawChart10() {
+      var data10 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkRWBuffer::SkRWBuffer(unsigned long)',230993,230993,230993],
 ['GrMemoryPool::GrMemoryPool(unsigned long, unsigned long)',151552,151552,151552],
@@ -205,14 +375,14 @@
          },
       };
 
-      var chart5 = new google.visualization.BarChart(document.getElementById('barchart_material5'));
+      var chart10 = new google.visualization.BarChart(document.getElementById('barchart_material10'));
 
-          chart5.draw(data5, options);
+          chart10.draw(data10, options);
       }
   
 
-  function drawChart6() {
-      var data6 = google.visualization.arrayToDataTable([
+  function drawChart11() {
+      var data11 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['GrMemoryPool::GrMemoryPool(unsigned long, unsigned long)',147456,147456,147456],
 ['v8::internal::ParserBase<v8::internal::Parser>::ParseExpressionCoverGrammar(bool, bool*)',125496,125496,125496],
@@ -239,14 +409,14 @@
          },
       };
 
-      var chart6 = new google.visualization.BarChart(document.getElementById('barchart_material6'));
+      var chart11 = new google.visualization.BarChart(document.getElementById('barchart_material11'));
 
-          chart6.draw(data6, options);
+          chart11.draw(data11, options);
       }
   
 
-  function drawChart7() {
-      var data7 = google.visualization.arrayToDataTable([
+  function drawChart12() {
+      var data12 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['cc::ContiguousContainerBase::Allocate(unsigned long)',840000,840000,840000],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',752600,746335,777418],
@@ -273,14 +443,14 @@
          },
       };
 
-      var chart7 = new google.visualization.BarChart(document.getElementById('barchart_material7'));
+      var chart12 = new google.visualization.BarChart(document.getElementById('barchart_material12'));
 
-          chart7.draw(data7, options);
+          chart12.draw(data12, options);
       }
   
 
-  function drawChart8() {
-      var data8 = google.visualization.arrayToDataTable([
+  function drawChart13() {
+      var data13 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['GrMemoryPool::allocate(unsigned long)',786432,786432,786432],
 ['GrBatchAtlas::BatchPlot::addSubImage(int, int, void const*, SkIPoint16*)',262144,262144,262144],
@@ -307,14 +477,14 @@
          },
       };
 
-      var chart8 = new google.visualization.BarChart(document.getElementById('barchart_material8'));
+      var chart13 = new google.visualization.BarChart(document.getElementById('barchart_material13'));
 
-          chart8.draw(data8, options);
+          chart13.draw(data13, options);
       }
   
 
-  function drawChart9() {
-      var data9 = google.visualization.arrayToDataTable([
+  function drawChart14() {
+      var data14 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',463672,460488,463672],
 ['v8::internal::Isolate::Init(v8::internal::Deserializer*)',352304,352304,352304],
@@ -341,14 +511,14 @@
          },
       };
 
-      var chart9 = new google.visualization.BarChart(document.getElementById('barchart_material9'));
+      var chart14 = new google.visualization.BarChart(document.getElementById('barchart_material14'));
 
-          chart9.draw(data9, options);
+          chart14.draw(data14, options);
       }
   
 
-  function drawChart10() {
-      var data10 = google.visualization.arrayToDataTable([
+  function drawChart15() {
+      var data15 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['cc::ContiguousContainerBase::Allocate(unsigned long)',536000,536000,536000],
 ['SkGlyphCache::findImage(SkGlyph const&)',479655,491286,415074],
@@ -375,14 +545,14 @@
          },
       };
 
-      var chart10 = new google.visualization.BarChart(document.getElementById('barchart_material10'));
+      var chart15 = new google.visualization.BarChart(document.getElementById('barchart_material15'));
 
-          chart10.draw(data10, options);
+          chart15.draw(data15, options);
       }
   
 
-  function drawChart11() {
-      var data11 = google.visualization.arrayToDataTable([
+  function drawChart16() {
+      var data16 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',2739669,2709202,2684737],
 ['v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',935630,937566,942006],
@@ -409,14 +579,14 @@
          },
       };
 
-      var chart11 = new google.visualization.BarChart(document.getElementById('barchart_material11'));
+      var chart16 = new google.visualization.BarChart(document.getElementById('barchart_material16'));
 
-          chart11.draw(data11, options);
+          chart16.draw(data16, options);
       }
   
 
-  function drawChart12() {
-      var data12 = google.visualization.arrayToDataTable([
+  function drawChart17() {
+      var data17 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',1368568,1368568,1368568],
 ['SkRWBuffer::SkRWBuffer(unsigned long)',288338,284242,284242],
@@ -443,14 +613,14 @@
          },
       };
 
-      var chart12 = new google.visualization.BarChart(document.getElementById('barchart_material12'));
+      var chart17 = new google.visualization.BarChart(document.getElementById('barchart_material17'));
 
-          chart12.draw(data12, options);
+          chart17.draw(data17, options);
       }
   
 
-  function drawChart13() {
-      var data13 = google.visualization.arrayToDataTable([
+  function drawChart18() {
+      var data18 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',5405753,5405753,5405777],
 ['cc::ContiguousContainerBase::Allocate(unsigned long)',224000,224000,224000],
@@ -477,14 +647,14 @@
          },
       };
 
-      var chart13 = new google.visualization.BarChart(document.getElementById('barchart_material13'));
+      var chart18 = new google.visualization.BarChart(document.getElementById('barchart_material18'));
 
-          chart13.draw(data13, options);
+          chart18.draw(data18, options);
       }
   
 
-  function drawChart14() {
-      var data14 = google.visualization.arrayToDataTable([
+  function drawChart19() {
+      var data19 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkMallocPixelRef::NewZeroed(SkImageInfo const&, unsigned long, SkColorTable*)',684496,684496,684496],
 ['blink::WebFontDecoder::decode(blink::SharedBuffer*)',314596,314596,314596],
@@ -511,14 +681,14 @@
          },
       };
 
-      var chart14 = new google.visualization.BarChart(document.getElementById('barchart_material14'));
+      var chart19 = new google.visualization.BarChart(document.getElementById('barchart_material19'));
 
-          chart14.draw(data14, options);
+          chart19.draw(data19, options);
       }
   
 
-  function drawChart15() {
-      var data15 = google.visualization.arrayToDataTable([
+  function drawChart20() {
+      var data20 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['media::DecoderBuffer::DecoderBuffer(unsigned char const*, unsigned long, unsigned char const*, unsigned long)',3426193,3080851,3080851],
 ['std::vector<unsigned char, std::allocator<unsigned char> >::_M_default_append(unsigned long)',1774235,1774235,1774235],
@@ -545,14 +715,14 @@
          },
       };
 
-      var chart15 = new google.visualization.BarChart(document.getElementById('barchart_material15'));
+      var chart20 = new google.visualization.BarChart(document.getElementById('barchart_material20'));
 
-          chart15.draw(data15, options);
+          chart20.draw(data20, options);
       }
   
 
-  function drawChart16() {
-      var data16 = google.visualization.arrayToDataTable([
+  function drawChart21() {
+      var data21 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkGlyphCache::findImage(SkGlyph const&)',411804,443574,405816],
 ['std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)',168747,216350,158438],
@@ -579,14 +749,48 @@
          },
       };
 
-      var chart16 = new google.visualization.BarChart(document.getElementById('barchart_material16'));
+      var chart21 = new google.visualization.BarChart(document.getElementById('barchart_material21'));
 
-          chart16.draw(data16, options);
+          chart21.draw(data21, options);
       }
   
 
-  function drawChart17() {
-      var data17 = google.visualization.arrayToDataTable([
+  function drawChart22() {
+      var data22 = google.visualization.arrayToDataTable([
+          ['type','1','2','3'],
+['SkRWBuffer::append(void const*, unsigned long, unsigned long)',2017808,2017616,2017593],
+['v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',1270094,1272042,1330690],
+['blink::WebFontDecoder::decode(blink::SharedBuffer*)',716492,716492,716492],
+['SkGlyphCache::findImage(SkGlyph const&)',591430,625960,559122],
+['SkRWBuffer::SkRWBuffer(unsigned long)',338979,338979,338979],
+['v8::internal::MaybeHandle<v8::internal::Object> v8::internal::(anonymous namespace)::HandleApiCallHelper<false>(v8::internal::Isolate*, v8::internal::Handle<v8::internal::HeapObject>, v8::internal::Handle<v8::internal::HeapObject>, v8::internal::Handle<v8::internal::FunctionTemplateInfo>, v8::internal::Handle<v8::internal::Object>, v8::internal::BuiltinArguments)',239911,239991,239991],
+['std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)',232066,232066,236162],
+['blink::LayoutBlockFlow::layoutBlockChildren(bool, blink::SubtreeLayoutScope&, blink::LayoutUnit, blink::LayoutUnit)',205534,202134,201874],
+['v8::internal::FunctionCallbackArguments::Call(void (*)(v8::FunctionCallbackInfo<v8::Value> const&))',182670,183742,182670],
+['SkTHashTable<SkGlyph, SkPackedGlyphID, SkGlyph::HashTraits>::resize(int)',167232,179520,163776],
+['blink::ContainerNode::parserAppendChild(blink::Node*)',134116,134116,134116],
+      ]);
+
+     var options = {
+         title: 'load_news_cnn.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 1000000,
+             minValue: 0,
+         },
+      };
+
+      var chart22 = new google.visualization.BarChart(document.getElementById('barchart_material22'));
+
+          chart22.draw(data22, options);
+      }
+  
+
+  function drawChart23() {
+      var data23 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',17155626,17149028,17158830],
 ['blink::WebFontDecoder::decode(blink::SharedBuffer*)',943708,943708,943708],
@@ -613,14 +817,14 @@
          },
       };
 
-      var chart17 = new google.visualization.BarChart(document.getElementById('barchart_material17'));
+      var chart23 = new google.visualization.BarChart(document.getElementById('barchart_material23'));
 
-          chart17.draw(data17, options);
+          chart23.draw(data23, options);
       }
   
 
-  function drawChart18() {
-      var data18 = google.visualization.arrayToDataTable([
+  function drawChart24() {
+      var data24 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkGlyphCache::findImage(SkGlyph const&)',194562,196740,211056],
 ['SkTHashTable<SkGlyph, SkPackedGlyphID, SkGlyph::HashTraits>::resize(int)',114432,125952,134400],
@@ -647,14 +851,48 @@
          },
       };
 
-      var chart18 = new google.visualization.BarChart(document.getElementById('barchart_material18'));
+      var chart24 = new google.visualization.BarChart(document.getElementById('barchart_material24'));
 
-          chart18.draw(data18, options);
+          chart24.draw(data24, options);
       }
   
 
-  function drawChart19() {
-      var data19 = google.visualization.arrayToDataTable([
+  function drawChart25() {
+      var data25 = google.visualization.arrayToDataTable([
+          ['type','1','2','3','4'],
+['v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',1200819,1229518,1231122,1196052],
+['SkGlyphCache::findImage(SkGlyph const&)',571044,566076,752742,769518],
+['blink::WebFontDecoder::decode(blink::SharedBuffer*)',691500,691500,691500,691500],
+['blink::LayoutBlockFlow::positionAndLayoutOnceIfNeeded(blink::LayoutBox&, blink::LayoutUnit, blink::BlockChildrenLayoutInfo&)',649559,647955,647361,647773],
+['blink::ElementV8Internal::clientWidthAttributeGetterCallback(v8::FunctionCallbackInfo<v8::Value> const&)',588882,588882,585810,585810],
+['SkRWBuffer::SkRWBuffer(unsigned long)',443828,431540,431540,386484],
+['SkTHashTable<SkGlyph, SkPackedGlyphID, SkGlyph::HashTraits>::resize(int)',273408,286464,377664,381888],
+['SkRWBuffer::append(void const*, unsigned long, unsigned long)',353205,357037,357037,357037],
+['blink::LayoutBlockFlow::layoutBlockChildren(bool, blink::SubtreeLayoutScope&, blink::LayoutUnit, blink::LayoutUnit)',281786,255238,229528,247124],
+['blink::LayoutBlock::layout()',173811,179827,214805,233365],
+['std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)',200859,200859,200859,200859],
+      ]);
+
+     var options = {
+         title: 'load_news_nytimes.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 1000000,
+             minValue: 0,
+         },
+      };
+
+      var chart25 = new google.visualization.BarChart(document.getElementById('barchart_material25'));
+
+          chart25.draw(data25, options);
+      }
+  
+
+  function drawChart26() {
+      var data26 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['v8::internal::SlotSet::Insert(int)',1198592,2460416,1409280],
 ['v8::internal::Isolate::Init(v8::internal::Deserializer*)',174320,1055664,528456],
@@ -681,14 +919,14 @@
          },
       };
 
-      var chart19 = new google.visualization.BarChart(document.getElementById('barchart_material19'));
+      var chart26 = new google.visualization.BarChart(document.getElementById('barchart_material26'));
 
-          chart19.draw(data19, options);
+          chart26.draw(data26, options);
       }
   
 
-  function drawChart20() {
-      var data20 = google.visualization.arrayToDataTable([
+  function drawChart27() {
+      var data27 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkGlyphCache::findImage(SkGlyph const&)',429189,525747,510408],
 ['SkTHashTable<SkGlyph, SkPackedGlyphID, SkGlyph::HashTraits>::resize(int)',219840,223296,244608],
@@ -715,14 +953,14 @@
          },
       };
 
-      var chart20 = new google.visualization.BarChart(document.getElementById('barchart_material20'));
+      var chart27 = new google.visualization.BarChart(document.getElementById('barchart_material27'));
 
-          chart20.draw(data20, options);
+          chart27.draw(data27, options);
       }
   
 
-  function drawChart21() {
-      var data21 = google.visualization.arrayToDataTable([
+  function drawChart28() {
+      var data28 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['blink::LayoutBlockFlow::layoutBlock(bool)',1723595,1723595,1723595],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',1673728,1672888,1672456],
@@ -749,14 +987,14 @@
          },
       };
 
-      var chart21 = new google.visualization.BarChart(document.getElementById('barchart_material21'));
+      var chart28 = new google.visualization.BarChart(document.getElementById('barchart_material28'));
 
-          chart21.draw(data21, options);
+          chart28.draw(data28, options);
       }
   
 
-  function drawChart22() {
-      var data22 = google.visualization.arrayToDataTable([
+  function drawChart29() {
+      var data29 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',2371174,2367078,2391654],
 ['SkGlyphCache::findImage(SkGlyph const&)',474240,523818,483552],
@@ -783,14 +1021,14 @@
          },
       };
 
-      var chart22 = new google.visualization.BarChart(document.getElementById('barchart_material22'));
+      var chart29 = new google.visualization.BarChart(document.getElementById('barchart_material29'));
 
-          chart22.draw(data22, options);
+          chart29.draw(data29, options);
       }
   
 
-  function drawChart23() {
-      var data23 = google.visualization.arrayToDataTable([
+  function drawChart30() {
+      var data30 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['blink::LayoutBlockFlow::layoutBlock(bool)',745539,656639,656639],
 ['SkGlyphCache::findImage(SkGlyph const&)',421969,408309,408439],
@@ -817,14 +1055,14 @@
          },
       };
 
-      var chart23 = new google.visualization.BarChart(document.getElementById('barchart_material23'));
+      var chart30 = new google.visualization.BarChart(document.getElementById('barchart_material30'));
 
-          chart23.draw(data23, options);
+          chart30.draw(data30, options);
       }
   
 
-  function drawChart24() {
-      var data24 = google.visualization.arrayToDataTable([
+  function drawChart31() {
+      var data31 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkGlyphCache::findImage(SkGlyph const&)',294444,301692,333864],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',296726,296726,296726],
@@ -851,14 +1089,14 @@
          },
       };
 
-      var chart24 = new google.visualization.BarChart(document.getElementById('barchart_material24'));
+      var chart31 = new google.visualization.BarChart(document.getElementById('barchart_material31'));
 
-          chart24.draw(data24, options);
+          chart31.draw(data31, options);
       }
   
 
-  function drawChart25() {
-      var data25 = google.visualization.arrayToDataTable([
+  function drawChart32() {
+      var data32 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['v8::internal::ParserBase<v8::internal::Parser>::ParseExpressionCoverGrammar(bool, bool*)',125496,125496,125496],
 ['blink::LayoutBlockFlow::layoutBlockFlow(bool, blink::SubtreeLayoutScope&)',92373,92373,92373],
@@ -885,14 +1123,14 @@
          },
       };
 
-      var chart25 = new google.visualization.BarChart(document.getElementById('barchart_material25'));
+      var chart32 = new google.visualization.BarChart(document.getElementById('barchart_material32'));
 
-          chart25.draw(data25, options);
+          chart32.draw(data32, options);
       }
   
 
-  function drawChart26() {
-      var data26 = google.visualization.arrayToDataTable([
+  function drawChart33() {
+      var data33 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',667790,727943,636266],
 ['blink::LayoutBlockFlow::layoutBlock(bool)',162467,176137,565685],
@@ -919,14 +1157,14 @@
          },
       };
 
-      var chart26 = new google.visualization.BarChart(document.getElementById('barchart_material26'));
+      var chart33 = new google.visualization.BarChart(document.getElementById('barchart_material33'));
 
-          chart26.draw(data26, options);
+          chart33.draw(data33, options);
       }
   
 
-  function drawChart27() {
-      var data27 = google.visualization.arrayToDataTable([
+  function drawChart34() {
+      var data34 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkGlyphCache::findImage(SkGlyph const&)',235470,254766,266586],
 ['v8::internal::ParserBase<v8::internal::Parser>::ParseExpressionCoverGrammar(bool, bool*)',125496,125496,125496],
@@ -936,8 +1174,8 @@
 ['base::SampleVector::SampleVector(unsigned long, base::BucketRanges const*)',59692,59692,59692],
 ['std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)',56421,56421,56421],
 ['extensions::ChromeExtensionsClient::CreateFeatureProvider(std::string const&) const',50824,50824,50824],
-['blink::FontCache::fontDataFromFontPlatformData(blink::FontPlatformData const*, blink::ShouldRetain, bool)',45018,0,45018],
 ['blink::SimpleFontData::SimpleFontData(blink::FontPlatformData const&, WTF::PassRefPtr<blink::CustomFontData>, bool, bool)',0,45018,0],
+['blink::FontCache::fontDataFromFontPlatformData(blink::FontPlatformData const*, blink::ShouldRetain, bool)',45018,0,45018],
 ['blink::LayoutBlockFlow::positionAndLayoutOnceIfNeeded(blink::LayoutBox&, blink::LayoutUnit, blink::BlockChildrenLayoutInfo&)',2148,35303,2148],
       ]);
 
@@ -953,14 +1191,14 @@
          },
       };
 
-      var chart27 = new google.visualization.BarChart(document.getElementById('barchart_material27'));
+      var chart34 = new google.visualization.BarChart(document.getElementById('barchart_material34'));
 
-          chart27.draw(data27, options);
+          chart34.draw(data34, options);
       }
   
 
-  function drawChart28() {
-      var data28 = google.visualization.arrayToDataTable([
+  function drawChart35() {
+      var data35 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkGlyphCache::findImage(SkGlyph const&)',332691,350967,285108],
 ['SkTHashTable<SkGlyph, SkPackedGlyphID, SkGlyph::HashTraits>::resize(int)',159360,170880,151680],
@@ -987,14 +1225,14 @@
          },
       };
 
-      var chart28 = new google.visualization.BarChart(document.getElementById('barchart_material28'));
+      var chart35 = new google.visualization.BarChart(document.getElementById('barchart_material35'));
 
-          chart28.draw(data28, options);
+          chart35.draw(data35, options);
       }
   
 
-  function drawChart29() {
-      var data29 = google.visualization.arrayToDataTable([
+  function drawChart36() {
+      var data36 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',814450,814450,814450],
 ['blink::LayoutBlockFlow::layoutBlockChild(blink::LayoutBox&, blink::BlockChildrenLayoutInfo&)',548803,549115,548699],
@@ -1021,14 +1259,14 @@
          },
       };
 
-      var chart29 = new google.visualization.BarChart(document.getElementById('barchart_material29'));
+      var chart36 = new google.visualization.BarChart(document.getElementById('barchart_material36'));
 
-          chart29.draw(data29, options);
+          chart36.draw(data36, options);
       }
   
 
-  function drawChart30() {
-      var data30 = google.visualization.arrayToDataTable([
+  function drawChart37() {
+      var data37 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',928476,928476,928476],
 ['blink::WebFontDecoder::decode(blink::SharedBuffer*)',128404,128404,128404],
@@ -1055,14 +1293,14 @@
          },
       };
 
-      var chart30 = new google.visualization.BarChart(document.getElementById('barchart_material30'));
+      var chart37 = new google.visualization.BarChart(document.getElementById('barchart_material37'));
 
-          chart30.draw(data30, options);
+          chart37.draw(data37, options);
       }
   
 
-  function drawChart31() {
-      var data31 = google.visualization.arrayToDataTable([
+  function drawChart38() {
+      var data38 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',1329063,1329063,1317424],
 ['SkRWBuffer::SkRWBuffer(unsigned long)',572583,572583,584198],
@@ -1089,14 +1327,14 @@
          },
       };
 
-      var chart31 = new google.visualization.BarChart(document.getElementById('barchart_material31'));
+      var chart38 = new google.visualization.BarChart(document.getElementById('barchart_material38'));
 
-          chart31.draw(data31, options);
+          chart38.draw(data38, options);
       }
   
 
-  function drawChart32() {
-      var data32 = google.visualization.arrayToDataTable([
+  function drawChart39() {
+      var data39 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',14223092,13958165,14087757],
 ['SkBitmap::HeapAllocator::allocPixelRef(SkBitmap*, SkColorTable*)',0,0,1370880],
@@ -1123,14 +1361,14 @@
          },
       };
 
-      var chart32 = new google.visualization.BarChart(document.getElementById('barchart_material32'));
+      var chart39 = new google.visualization.BarChart(document.getElementById('barchart_material39'));
 
-          chart32.draw(data32, options);
+          chart39.draw(data39, options);
       }
   
 
-  function drawChart33() {
-      var data33 = google.visualization.arrayToDataTable([
+  function drawChart40() {
+      var data40 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',1057476,1056191,1057524],
 ['SkGlyphCache::findImage(SkGlyph const&)',306308,285356,276908],
@@ -1157,14 +1395,14 @@
          },
       };
 
-      var chart33 = new google.visualization.BarChart(document.getElementById('barchart_material33'));
+      var chart40 = new google.visualization.BarChart(document.getElementById('barchart_material40'));
 
-          chart33.draw(data33, options);
+          chart40.draw(data40, options);
       }
   
 
-  function drawChart34() {
-      var data34 = google.visualization.arrayToDataTable([
+  function drawChart41() {
+      var data41 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',616617,616617,616617],
 ['SkRWBuffer::SkRWBuffer(unsigned long)',278528,278528,278528],
@@ -1191,14 +1429,14 @@
          },
       };
 
-      var chart34 = new google.visualization.BarChart(document.getElementById('barchart_material34'));
+      var chart41 = new google.visualization.BarChart(document.getElementById('barchart_material41'));
 
-          chart34.draw(data34, options);
+          chart41.draw(data41, options);
       }
   
 
-  function drawChart35() {
-      var data35 = google.visualization.arrayToDataTable([
+  function drawChart42() {
+      var data42 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',520854,529117,519071],
 ['blink::WebFontDecoder::decode(blink::SharedBuffer*)',451836,451836,451836],
@@ -1225,14 +1463,48 @@
          },
       };
 
-      var chart35 = new google.visualization.BarChart(document.getElementById('barchart_material35'));
+      var chart42 = new google.visualization.BarChart(document.getElementById('barchart_material42'));
 
-          chart35.draw(data35, options);
+          chart42.draw(data42, options);
       }
   
 
-  function drawChart36() {
-      var data36 = google.visualization.arrayToDataTable([
+  function drawChart43() {
+      var data43 = google.visualization.arrayToDataTable([
+          ['type','1','2','3','4'],
+['blink::LayoutBlockFlow::layoutBlockChildren(bool, blink::SubtreeLayoutScope&, blink::LayoutUnit, blink::LayoutUnit)',1136473,1109275,1115419,52442],
+['v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',700125,784226,761574,713718],
+['blink::WebFontDecoder::decode(blink::SharedBuffer*)',697600,697600,697600,697600],
+['blink::LayoutBlockFlow::layoutBlockFlow(bool, blink::SubtreeLayoutScope&)',50183,50183,50183,697228],
+['blink::LayoutBlockFlow::layoutBlock(bool)',76818,76818,82962,525547],
+['SkGlyphCache::findImage(SkGlyph const&)',416064,484290,492546,496050],
+['SkTHashTable<SkGlyph, SkPackedGlyphID, SkGlyph::HashTraits>::resize(int)',182976,215232,199296,209664],
+['SkRWBuffer::SkRWBuffer(unsigned long)',195713,195713,195713,195713],
+['std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)',178171,181173,181173,188259],
+['v8::internal::Isolate::Init(v8::internal::Deserializer*)',174320,0,0,174320],
+['SkRWBuffer::append(void const*, unsigned long, unsigned long)',161525,161525,161525,161525],
+      ]);
+
+     var options = {
+         title: 'load_tools_drive.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 1000000,
+             minValue: 0,
+         },
+      };
+
+      var chart43 = new google.visualization.BarChart(document.getElementById('barchart_material43'));
+
+          chart43.draw(data43, options);
+      }
+  
+
+  function drawChart44() {
+      var data44 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',388671,402084,94096],
 ['std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)',177622,175776,175847],
@@ -1259,14 +1531,14 @@
          },
       };
 
-      var chart36 = new google.visualization.BarChart(document.getElementById('barchart_material36'));
+      var chart44 = new google.visualization.BarChart(document.getElementById('barchart_material44'));
 
-          chart36.draw(data36, options);
+          chart44.draw(data44, options);
       }
   
 
-  function drawChart37() {
-      var data37 = google.visualization.arrayToDataTable([
+  function drawChart45() {
+      var data45 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['blink::LineBreaker::skipLeadingWhitespace(blink::BidiResolver<blink::InlineIterator, blink::BidiRun, blink::BidiIsolatedRun>&, blink::LineInfo&, blink::LineWidth&)',1056001,1056001,1328],
 ['SkGlyphCache::findImage(SkGlyph const&)',645006,664254,610188],
@@ -1293,14 +1565,14 @@
          },
       };
 
-      var chart37 = new google.visualization.BarChart(document.getElementById('barchart_material37'));
+      var chart45 = new google.visualization.BarChart(document.getElementById('barchart_material45'));
 
-          chart37.draw(data37, options);
+          chart45.draw(data45, options);
       }
   
 
-  function drawChart38() {
-      var data38 = google.visualization.arrayToDataTable([
+  function drawChart46() {
+      var data46 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)',174479,220188,178575],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',193262,193262,193262],
@@ -1327,14 +1599,14 @@
          },
       };
 
-      var chart38 = new google.visualization.BarChart(document.getElementById('barchart_material38'));
+      var chart46 = new google.visualization.BarChart(document.getElementById('barchart_material46'));
 
-          chart38.draw(data38, options);
+          chart46.draw(data46, options);
       }
   
 
-  function drawChart39() {
-      var data39 = google.visualization.arrayToDataTable([
+  function drawChart47() {
+      var data47 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkGlyphCache::findImage(SkGlyph const&)',502152,524568,481332],
 ['SkTHashTable<SkGlyph, SkPackedGlyphID, SkGlyph::HashTraits>::resize(int)',221952,247104,237312],
@@ -1361,14 +1633,48 @@
          },
       };
 
-      var chart39 = new google.visualization.BarChart(document.getElementById('barchart_material39'));
+      var chart47 = new google.visualization.BarChart(document.getElementById('barchart_material47'));
 
-          chart39.draw(data39, options);
+          chart47.draw(data47, options);
       }
   
 
-  function drawChart40() {
-      var data40 = google.visualization.arrayToDataTable([
+  function drawChart48() {
+      var data48 = google.visualization.arrayToDataTable([
+          ['type','1','2','3'],
+['v8::internal::ParserBase<v8::internal::Parser>::ParseBinaryExpression(int, bool, bool*)',3197568,0,2167232],
+['v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*)',1290084,1342593,1256143],
+['v8::internal::SlotSet::Insert(int)',429824,326144,271104],
+['blink::FrameLoader::dispatchDidClearDocumentOfWindowObject()',296335,318839,362359],
+['blink::LayoutBlockFlow::positionAndLayoutOnceIfNeeded(blink::LayoutBox&, blink::LayoutUnit, blink::BlockChildrenLayoutInfo&)',291683,291731,291683],
+['SkRWBuffer::append(void const*, unsigned long, unsigned long)',240080,240080,240080],
+['SkGlyphCache::findImage(SkGlyph const&)',219008,196628,228344],
+['cc::ContiguousContainerBase::Allocate(unsigned long)',168000,176000,184000],
+['std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)',177374,162058,178442],
+['v8::internal::Isolate::Init(v8::internal::Deserializer*)',174320,174320,174320],
+['blink::WebFontDecoder::decode(blink::SharedBuffer*)',148992,148992,148992],
+      ]);
+
+     var options = {
+         title: 'load_tools_weather.csv',
+         bars: 'horizontal',
+         chartArea: {
+             left: 400,
+         },
+         hAxis: {
+             maxValue: 1000000,
+             minValue: 0,
+         },
+      };
+
+      var chart48 = new google.visualization.BarChart(document.getElementById('barchart_material48'));
+
+          chart48.draw(data48, options);
+      }
+  
+
+  function drawChart49() {
+      var data49 = google.visualization.arrayToDataTable([
           ['type','1','2','3'],
 ['SkRWBuffer::append(void const*, unsigned long, unsigned long)',1730138,1730018,1729466],
 ['blink::CachingWordShaper::width(blink::Font const*, blink::TextRun const&, WTF::HashSet<blink::SimpleFontData const*, WTF::PtrHash<blink::SimpleFontData const>, WTF::HashTraits<blink::SimpleFontData const*>, WTF::PartitionAllocator>*, blink::FloatRect*)',1623080,1623080,1623080],
@@ -1395,9 +1701,9 @@
          },
       };
 
-      var chart40 = new google.visualization.BarChart(document.getElementById('barchart_material40'));
+      var chart49 = new google.visualization.BarChart(document.getElementById('barchart_material49'));
 
-          chart40.draw(data40, options);
+          chart49.draw(data49, options);
       }
   
 </script>
@@ -1444,6 +1750,15 @@ drawChart37();
 drawChart38();
 drawChart39();
 drawChart40();
+drawChart41();
+drawChart42();
+drawChart43();
+drawChart44();
+drawChart45();
+drawChart46();
+drawChart47();
+drawChart48();
+drawChart49();
 }
 
 google.charts.setOnLoadCallback(drawChart);
@@ -1491,6 +1806,15 @@ google.charts.setOnLoadCallback(drawChart);
 <div id="barchart_material38" style="width: 1200px; height: 500px;"></div>
 <div id="barchart_material39" style="width: 1200px; height: 500px;"></div>
 <div id="barchart_material40" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material41" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material42" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material43" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material44" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material45" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material46" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material47" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material48" style="width: 1200px; height: 500px;"></div>
+<div id="barchart_material49" style="width: 1200px; height: 500px;"></div>
   </body>
 </html>
 
